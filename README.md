@@ -1,4 +1,5 @@
 # Pcfb_Final_Project
+https://travis-ci.org/MrKort/Pcfb_Final_Project.svg?branch=master
 Course: Bioinformatics
 Owner: K. Kort
 Contributor: H. Kruize
