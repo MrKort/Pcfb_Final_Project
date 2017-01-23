@@ -6,7 +6,7 @@ Aim of this Git: Store scripts and programs for the "Multiple Sequence Alignment
 
 
 To find the names of the sequences do:
-grep ">" -h *.fas | sort | uniq -c
+grep ">" -h (\*).fas | sort | uniq -c
 
 Data retrieval:
 To test the pipeline four toy datasets were retrieved from the MiST2.2 database.
