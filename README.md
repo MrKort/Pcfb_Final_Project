@@ -17,3 +17,5 @@ File 4: protein sequences for CheZ of 10 different species
 
 Search RefSeq genename for CheA or CheZ, was used to retrieve the data.
 These sequences were retrieved manually and the species included are the first ten in the list.
+
+Started working on pipeline. - Kort
