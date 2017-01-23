@@ -1,18 +1,14 @@
 #! /usr/bin/env python
 
-import sys
 import os
+import sys
 
 # Please use the proper extentions for the DNA sequences (000.fnt) and the Amino Acid sequences (000.faa)
+# sys.argv takes the file name you want to search. 
+#Be sure to enclose it in apostorphes like: "file*.faa", if you wish to select all files of a certain type
 string=sys.argv[1]
-print string[:-7]
 
 
-string="%s*.fnt" % (string[:-7])
-print string
-#rm analysis.fnt
-#rm analysis.faa
-#cat string***.fnt > analysis.fnt
-#cat *.faa > analysis.faa
+print "Showing all sequences from ", string, " files"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
 
