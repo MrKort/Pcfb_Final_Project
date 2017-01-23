@@ -11,6 +11,7 @@ string=sys.argv[1]
 print "Showing all individual sequences from ", string, " files:"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
 
+# Concatenate all files into a single inputfile for the pipeline
 print "Concatenating all ", string, "files"
 os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alingment"
