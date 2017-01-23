@@ -12,6 +12,10 @@ print "Showing all individual sequences from ", string, " files:"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
 
 print "Concatenating all ", string, "files"
-os.system('cat '+string+" > input.fas")
-os.system('mafft input.fas > mafft_output.fas')
-os.system('muscle -in input.fas -out muscle_output.fas')
+os.system('cat '+string+" > workdir/input.fas")
+print "Starting Multiple Sequence Alingment"
+os.system('sleep 2')
+
+# Start the Multiple Sequence Alignments
+os.system('mafft workdir/input.fas > workdir/mafft_output.fas')
+os.system('muscle -in workdir/input.fas -out workdir/muscle_output.fas')
