@@ -8,7 +8,9 @@ import sys
 #Be sure to enclose it in apostorphes like: "file*.faa", if you wish to select all files of a certain type
 string=sys.argv[1]
 
-
-print "Showing all sequences from ", string, " files"
+print "Showing all individual sequences from ", string, " files:"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
+
+print "Concatenating all ", string, "files"
+os.system('cat '+string+" > input.fas")
 
