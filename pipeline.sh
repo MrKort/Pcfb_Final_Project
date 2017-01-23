@@ -13,4 +13,5 @@ os.system('grep ">" -h '+string+" | sort | uniq -c")
 
 print "Concatenating all ", string, "files"
 os.system('cat '+string+" > input.fas")
-
+os.system('mafft input.fas > mafft_output.fas')
+os.system('muscle -in input.fas -out muscle_output.fas')
