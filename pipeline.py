@@ -29,6 +29,8 @@ print "Concatenating all", string, "files."
 os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alignment."
 
+os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/' -i workdir/input.fas")
+
 # Start the Multiple Sequence Alignments
 os.system('mafft --clustalout workdir/input.fas > workdir/mafft_output.fas')
 #os.system('muscle -in workdir/input.fas -clw -out workdir/muscle_output.fas')
@@ -41,7 +43,9 @@ mafft = Format_mafft.readlines()
 
 # While loop to select all lines per sequence from the outputfiles
 i = 0
+dictio={}
 while i < seq_num:
 #	muscle[i+3::22]
-	print mafft[i+3::22]
+	dictio[i] = [mafft[i+3::22]]
 	i += 1
+print dictio[0]
