@@ -18,5 +18,5 @@ print "Starting Multiple Sequence Alingment"
 os.system('sleep 2')
 
 # Start the Multiple Sequence Alignments
-os.system('mafft workdir/input.fas > workdir/mafft_output.fas')
-os.system('muscle -in workdir/input.fas -out workdir/muscle_output.fas')
+os.system('mafft --localpair --maxiterate 1000 --op 15 --lop 5 workdir/input.fas > workdir/mafft_output.fas')
+os.system('muscle -gapopen -15 -gapextend -5 -in workdir/input.fas -out workdir/muscle_output.fas')
