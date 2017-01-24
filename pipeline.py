@@ -18,7 +18,6 @@ os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alignment"
 
 # Start the Multiple Sequence Alignments
-os.system('mafft workdir/input.fas > workdir/mafft_output.fas')
-os.system('muscle -in workdir/input.fas -out workdir/muscle_output.fas')
-
+os.system('mafft --clustalout workdir/input.fas > workdir/mafft_output.phy')
+os.system('muscle -in workdir/input.fas -clw -out workdir/muscle_output.phy')
 
