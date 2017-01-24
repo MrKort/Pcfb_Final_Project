@@ -19,10 +19,9 @@ seq_num = int(lines_file[0])
 Seq_count.close()
 
 # Print sequences to screen
-print
+os.system("clear")
 print "Showing all", seq_num, "individual sequences from", string, "files:"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
-os.system('grep ">" -h '+string+" | sort | uniq -c > workdir/seq_names.txt")
 
 # Concatenate all files into a single inputfile for the pipeline
 print
@@ -33,7 +32,7 @@ print "Starting Multiple Sequence Alignment."
 os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/' -i workdir/input.fas")
 
 # Start the Multiple Sequence Alignments
-os.system('mafft --clustalout workdir/input.fas > workdir/mafft_output.fas')
+os.system('mafft --localpair --maxiterate 1000 --op 25 --lop 25 --clustalout workdir/input.fas > workdir/mafft_output.fas')
 #os.system('muscle -in workdir/input.fas -clw -out workdir/muscle_output.fas')
 
 # Open MSA output files, readlines, and store in lists
@@ -49,4 +48,13 @@ while i < seq_num:
 #	muscle[i+3::22]
 	dictio[i] = [mafft[i+3::22]]
 	i += 1
-print dictio[0]
+#print dictio[0]
+
+# Need to count the characters in the aligned sequences
+# Need to remove the **?? lines (already fixed by the way the while loop selects the sequences)
+# Maybe need to remove sequence names after first block
+# Need to print in format:
+#
+# Sequence number ##whitespace## Characters in sequence
+# First block (Names| sequences)
+# Second block (Only? sequences)
