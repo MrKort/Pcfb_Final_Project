@@ -38,3 +38,4 @@ os.system('muscle -in input.fas -out muscle(\_)output.fas')
 
 
 Started working on pipeline. - Kort
+Trying to refine msa by muscle and mafft - H
