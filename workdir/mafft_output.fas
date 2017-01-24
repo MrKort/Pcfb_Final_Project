@@ -1,300 +1,310 @@
->accession:YP_002647957.1|locus:EpC_09280|genome:Erwinia pyrifoliae Ep1/96
-------------------------------------------------------------
-----------------atg---------------acaattgataatagcgccgacaactt
-c------aaagatattttttcacgtatcgggcagttgacgcgcgtgctgcgtaacagcat
-ggcaaacctc------ggtctcgaacaggtgctcaaggagatggccggtgcc--------
-----------tttcctaatacccgcgaccgtcttgactatgtggtagataaaacctcgca
-ggctgcaaactgcgcattaacctgcgtcgaggttgcccgtccgcttcaggagcagctggg
-caaccaggcgactgccctgtcggccaactgggacg-------catggtttgccaacccac
-------agccgcttgaggacgcacgcgagctggtgatacagacacgcgcctatctgcaac
-aggtacctgaggttacccgggaaaccaatcagcagctgaccgagatcatgatggcgcagg
-acttccaggatttgaccgggcaagttctgcaaggcctggtgaatgtgattgagctggtgg
-aaaaagagctgatctgcgtgctg-------ctggaaaatatgcaggagatag--------
----aacccgatcgcgacgattctcaagcgcagctgaaaaatggtccgcaaatcaactcta
-ccgccgaaggcatcgtcgcctcgcaggagcaggtggatgatttgctggaatcgcttggct
-tctga
->accession:YP_002648557.1|locus:EpC_15460|genome:Erwinia pyrifoliae Ep1/96
-------------------------------------------------------------
-----atgagtactattccg---------------aaaccaaatgtcgatgctgcttcggc
-a------caggacattatctccaaaattggttcactgacgcggatgctgcgcgacagctt
-gcgcgagctt------gggctggatcaggcgattgccgaagcggcagaggcg--------
-----------atccccgatgcccgcgatcgcctcgattatgtagtacagatgactgctca
-ggcggcagatcgcgcgttgaactgcgtagaagcttcccagccgcgccagacgcagttgga
-agatggagcgaagcaactcaaaggccgttgggatg-------agtggtttgaaaatccta
-------tcgaactggcagatgctcgctctttggtttcggacacgcgcggctatctggaag
-cagtgccgggacatacgtctttcactaatgcccagctgatggaaatcatgatggctcagg
-acttccaggatctgaccgggcaggtgattaaacgcatgatggatgtgatccaggaaatcg
-agcgtcagctgctgacggttctg-------cttgaaaacgtccctgatcaag--------
----gtcagcgtgtcaaaaaagagaccaataatttgcttaatggcccgcagattaatgcgg
-ccgcgccaaacgtggtggcaagccaggatcaggttgacgacctgctggatagtctcgggt
-tctga
->accession:YP_003210936.1|locus:CTU_25730|genome:Cronobacter turicensis z3032
-------------------------------------------------------------
-----atgacggcatcgata---------------aaaccgactgacgagcatt---cgac
-t------ggcgacattattgtccgtatcggcagtctgacccgcatgctgcgtgacagcct
-gcgcgaactg------gggcttgatcaggcgattgcggaagcggcggaagct--------
-----------ataccggacgcgcgcgaccgtctggattacgtggtgcagatgacggcgca
-ggccgcagaacgcgccctgaactgcgtcgaggcctcgcagcctcaccagaacaaactgga
-aaacgacgcgaaagcgctgagcggccgctgggacg-------aatggttcgagaacccga
-------tcgaactgagcgacgcgcgcgaactcgtgaccgacacccgccagtatctggcag
-aggttccggatcacacgagcttcaccaacgcccagcttctggaaatcatgatggcgcagg
-atttccaggatctgaccggtcaggtgatcaagcgcatgatggatgttatccaggagattg
-agcgccagcttctgatggtgctg-------ctggagaacatgccggagccga--------
----acgcgcgcgccaagcgcccgaacgagagcctgctcaatggtccgcagctggacgcta
-ccgccgccggcgtcgtggcaagccaggatcaggtcgacgacctgctcgacagtctgggct
-tctga
->accession:YP_003222069.1|locus:ECO103_2143|genome:Escherichia coli O103:H2 str. 12009
-------------------------------------------------------------
--atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
-t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
-gcgggaactg------gggctggatcaggccattgccgaagcggcggaagcc--------
-----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
-ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
-gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
-------ttgaccttgccgacgcccgtgaactggtaacagatacacgacaatttctggcag
-atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
-attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
-aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
----agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
-gcaaagccggcgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
-tttga
->accession:YP_003229712.1|locus:ECO26_2733|genome:Escherichia coli O26:H11 str. 11368
-------------------------------------------------------------
--atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
-t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
-gcgggaactg------gggctggatcaggccattgccgaagcggcggaagcc--------
-----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
-ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
-gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
-------ttgaccttgccgacgcccgtgaactggtaacagatacacgacaatttctggcag
-atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
-attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
-aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
----agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
-gcaaagccggtgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
-tttga
->accession:YP_003234881.1|locus:ECO111_2467|genome:Escherichia coli O111:H- str. 11128
-------------------------------------------------------------
--atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
-t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
-gcgggaactg------gggctggatcaggccattgccgaagcggcggaagcc--------
-----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
-ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
-gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
-------ttgaccttgccgacgcccgtgaactggtaacagatacacgacaatttctggcag
-atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
-attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
-aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
----agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
-gcaaagccggtgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
-tttga
->accession:YP_003295400.1|locus:ETAE_1348|genome:Edwardsiella tarda EIB202
-------------------------------------------------------------
--atgaacgaacatccgatg---------------ccagccgccgatg------------c
-c------ggcgatattatcgctaggattggccaactgacgcgtatgctgcgtgacagcat
-gaaagagctt------ggactggatcaggccatcgctcaggcagccgaagcc--------
-----------attccggatgcccgcgaccgtctggactatgtggtgcagatgacccgcca
-ggccgccgagcgcgccctgagctgcgttgaagcggcgcagccgcgtcagacgcagatgga
-gaagggctccaaagagctcaagcagcgttgggatg-------cctggtttgaaaatccga
-------tcgagcttgaggatgccagggcgctggtaacggatacccgccagttcttgagcg
-aggtgccggagcatacggccttcactcacagccagctgctcgaaatcatgatggcgcagg
-atttccaggatctgaccggtcaggtgatcaagcgcatgatggacgtgatccaggagatcg
-aaaagcagctgctgatggtgctg-------ctggagaatatgccggagcagc--------
----cgcccaagccgaagcgtgaaaatgacagcctgctgaatggcccgcagatgaaccaga
-acgggccgggtgtggtcgccaaccaggagcaggtcgacgacctgctggacagcctgggat
-tttaa
->accession:YP_003365486.1|locus:ROD_19291|genome:Citrobacter rodentium ICC168
-------------------------------------------------------------
--atgatgcaacctaccgta---------------aaacccacagacgagcacg---ctgc
-c------ggggatatcatcgcccgcattggcagcctcacccgcatgctgcgcgacagcct
-gcgtgaactg------gggctggaccaggcgatcgccgaagcggcggaagcg--------
-----------atcccggatgctcgcgatcgtctggactatgtggtgcagatgaccgcgca
-ggccgccgagcgcgcgctgaacagcgttgaggcatcgcagccgcatcaggatgagatgga
-gaaaggggccaaagcgctgagcaagcgctgggatg-------aatggtttgaaaacccga
-------tggagcttgctgacgcccgcgagctggtcaccgacacgcgtaaatttctcagcg
-acgtgccggagcacaccagtttcaccaacgcgcagttgctcgacatcatgatggcgcagg
-atttccaggatctgaccggtcaggtgatcaagcgcatgatggatgtgattcaggagatcg
-aacgccagctgctgatggtgctg-------ttggagaacattccggagcagg--------
----gcgcgcggccaaaacgtgaaagcgatagcctgctcaatggcccgcaggtcgatacca
-gcaaagcgggcgtggtcgccagccaggatcaggttgacgatctgctggacagcctcggtt
-tttaa
->accession:YP_003375872.1|locus:XALc_1377|genome:Xanthomonas albilineans GPE PC73
---------------------------------atggaagtcactgctgaacgcact----
--gctctgatcgaacgcctgcaaggtgcgctggacgcactggaaagcggtgacgaagccgg
-ctggcgccgggagatcgacaccctcgccgcctggcgcacacgcccgatgatgcagggcct
-gagccgacttgcgcgcgacctgggccaggcactgggcgaactgccggtggcgcccagcga
-cgctggcgaactggatgacgcctgttcgcggctggaccacgtggtggcaatgaccgaaca
-agccagtcaccgtaccttggatttggccgaggaatgccgtgcgctc--------------
-------------------------------------------------------------
------gccgaacaattgcgtgccggcggcctgagtggcgaccagagcgagatcctggaca
-agatccgccacaac---------------------ctcaccgaaatggctctggcgcaga
-gcttccaggacctgaccggacagatcatccgccgcgtcgcaggaattgtgcgccgtgtgc
-acgaagggttcggcgcgctgggattaccg-ccgaaggaagaacgcaaagccg--------
-------------------------atggcggcttggccggcccagccctacctggcctgg
-accgtcacggcgtgtcg------caaaacgacgccgacgacctgctgtccggattggggt
-tgtaa
->accession:YP_003467832.1|locus:XBJ1_1928|genome:Xenorhabdus bovienii SS-2004
-------------------------------------------------------------
-----atgagtgaaaatccagt------------catgccgagagatgaggcagttactac
-c------agtgaaataatcagtcgtattgggcagttaacgagaatgctgcgcgatagtct
-gcgtgaactg------gggttagatcaaaccattgctcaggcggctgaggcg--------
-----------atccctgatgcgagggagcgattgaattacgttgtccagatgacggcaca
-ggcggctgaaagggtgctgaattgcgttgaagaggcacagccccaccagaatgaattgga
-atcttcggcgaaatccttaacccagcgctgggatg-------agtggtttgcaaacccga
-acaatctggaattgacagaggctcgctcactggtgacagataccagagattatctcaatc
-ttgtacctgaacatgtctcatttaccaatactcaattgcttgagatcatgatggcgcaag
-actttcaggatctgacagggcaggtcatcaaacggatgatggaagttattcaggagctgg
-aaaaacaactggttatggtgtta-------atggaaaatatgccttctgacca-------
--gatggccaaagcgaaaaaagaaaacgacagccttcttaatggccctcaggttaatcaga
-atggagcaggtgttattgccaaccaagcacaggttgatgatttattggatagtttaggtt
-tttga
->accession:YP_003499881.1|locus:G2583_2333|genome:Escherichia coli O55:H7 str. CB9615
-------------------------------------------------------------
--atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
-t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
-gcgggaactg------ggactggatcaggccattgccgaagcggcggaagcc--------
-----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
-ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
-gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
-------ttgaccttgccgacgcccgtgaactggtaacagatacgcggaaatttctggcag
-atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
-attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
-aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
----agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
-gcaaagccggtgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
-tttga
->accession:YP_003520518.1|locus:PANA_2223|genome:Pantoea ananatis LMG 20103
-------------------------------------------------------------
--gtgatgagcgaccttccg---------------aaatcagctgagcaagccg---cggc
-a------cacgatatcatttcccgcatcggttcactgacccgcatgctgcgtgacagtct
-gcgtgagctg------gggctggatcaggccattgcagaagctgctgaagcc--------
-----------attcctgacgcccgcgaccgtctggactatgtagtgcaaaagaccgctca
-ggcggccgacagggcgctgaacagcgtcgaagcagcgcaaccgcaccaggacaaaatgga
-agcgggcgcgattgcgctgaaaggacgctgggatg-------cgtggtttgaaaatccaa
-------ttgaacttgccgacgcgcgcgagctggtgacggatacgcgtgagtatttagggg
-aagtgcctacgcacacctcttttactaacaagcagttgctcgacatcatgatggcgcagg
-atttccaggaccttaccggtcaggtcatcaagcgcatgatggatgtgatccaggagatcg
-agcgccagctgttgatggtgctg-------ctggaaaacatgccagaagtga--------
----gcgccgagaaacgtcaggttggcaccacgctgcttaacggacctcaggtcaatgccg
-ctgcgccaggcgtcgtggcgaatcaggaccaggttgatgacctgctggacagcctgggtt
-tctaa
->accession:YP_003539101.1|locus:EAM_2022|genome:Erwinia amylovora ATCC 49946
-------------------------------------------------------------
-----atgagtactattccg---------------aaaccaaatgttgatgctgcttcggc
-a------caggacattatctccaaaattggtgcactgacacggatgctgcgcgacagcct
-gcgtgaactt------ggcctggatcatgcgattgccgaagcggcagaagcg--------
-----------atccccgatgcccgtgatcgccttgattatgtagtacagatgactgctca
-ggcggcagatcgcgcgttgaactgcgtagaagcttcccagccgcgtcagacggtgttgga
-agatggcgcgaaacaactgaaaggtcgttgggatc-------agtggtttgaaaatccta
-------tcgaactggcagacgctcgctctttggtttcggacacgcgcggttatctggcag
-cagtgccggaacatacgtccttcaccaatgcccagctgatggaaatcatgatggctcagg
-acttccaggatctgaccgggcaagtgatcaaacgtatgatggatgtgatccaggaaattg
-agcgtcagctgctgacggttctg-------ctggaaaacgtgcccgatcaag--------
----gtcagcgtgtcaaaaaagagaccaacaatttgctcaatggcccgcagattaatgcgg
-ctgcgccgaacgtggtggcaagccaggatcaggttgatgacctgctggacagtcttgggt
-tctga
->accession:YP_003539654.1|locus:EAM_2585|genome:Erwinia amylovora ATCC 49946
-------------------------------------------------------------
-----------------atg---------------acaattgataataacgccgacaactt
-c------aaagatattttttcacgtatcgggcagctgacgcgtgtgctgcgtaacagcat
-ggccaacctg------ggtcttgaacaggtgctgaaggagatggccggcgcc--------
-----------ttcccgaatacccgcgaccgtcttgactacgtggtagataaaacctctca
-ggccgccaactgtgcattaacctgcgtcgaggtggcccgcccgcttcaggagcagttagg
-cagccaggcgactgccctgtcggccaaatgggacg-------catggtttgccaatccac
-------agccacttgaggacgcacgcgaactggttattcagacgcgcgcctacctgcaac
-aggttcctgaggtcacccgcagcaccaatcagcagctgaccgatatcatgatggcgcagg
-acttccaggatttgaccgggcaagttctgcaaggcctggtgaatgtgattgagctggtgg
-aaaaagagctgatctgcgtgctg-------ctggaaaatatgcaggaattag--------
----aacccgatcgcgacgatgctcaagcgcagctgaaaaatggtccgcaaatcaattcca
-ccgccgaaggcattgtcgcttcacaggagcaggttgatgatttgctggaatcgcttggct
-tctga
->accession:YP_003556200.1|locus:SVI_1451|genome:Shewanella violacea DSS12
-gtgaatacttcagggctaatttcgttagagcaggcaaataaattggtagacttgctgact
-caaggcgaacaattactcgctga-------cgatttaattagagacatagctgcaccgat
-tc---aaaaggacctttttgaagaggtcggaagactcactcgtcagcttcatagtgcgat
-tgtcgatttt------caaattgatgatcgcctggttgagctaacgagtactg-------
---------agattccggatgccaaagagcggttgacttatgtcatagatatgactgagca
-agctgctaataaaaccatggacgcagttgaagaatgtcttcccctggccaatgctctttc
-ggctaatattcaatctgtaaagcctgcatgggatc---gactcatgaggcgtgaaattga
----------gctcagcgaatttaaacccttgtgtcacaaggttcaacaatttgtcgagcg
-aagtgaattag-attctatccgtttgaaagaactgttaaaccaaatattacttgcccaag
-attttcaagatttgactgggcagatgataaaaagggttatcgatctcgttcgtgaagtag
-aaaataatttagtctcgatgctgacggtatttggtgaacaacccgtcagtgaaaatccga
-caatcatcgatagtagtgttgaggccgaagggccgatca--tgaacgctgaacaacgtga
-c-------gatgtcgtcgcaggtcaagatgaagttgatgatctgctgtcgagtttgggtt
-tttaa
->accession:YP_003568191.1|locus:YPZ3_2019|genome:Yersinia pestis Z176003
-------------------------------------------------------------
-----atgaataaccatcca---------------atgcccgcaaccgatgcggcatcagc
-c------agtgatattattagccgtattggcagtctcacgcggatgttacgtgacagttt
-gcgagagtta------ggtcttgatcaagccattgctcaggccgccgaagcg--------
-----------atcccggatgcccgtgaccgtctggattatgtggttcatatgacagcaca
-ggccgcagaaagggcgcttaactgtgtcgaggcggcacaaccgcgtcagaacgaactgga
-atcatcagcaaaggcgctaaaaattcgctgggatg-------agtggtttgccaatccaa
-------tcgagctgtcagatgcccgttcactggtcacggatacgcgagaatatttagcgg
-ttgtcccacagcacacttcatttaccaatgcgcaattattggaaatcatgatggcgcagg
-atttccaggacctgaccggtcaggttatcaaacgcatgatggatgtggtacaggaaattg
-agaaacagctcctcatggttttg-------atggagaatattcccgatatcc--------
----cgtcaaaaccgcagaaaccgacggacagtttacttaatggcccgcagatggataaaa
-atgttgccggtgttatcgccagtcaagatcaggttgatgatttgctggatagtttaggtt
-tttaa
->accession:YP_003711876.1|locus:XNC1_1615|genome:Xenorhabdus nematophila ATCC 19061
-------------------------------------------------------------
-----------------------------------atgcctagagatgaggcgattcctac
-c------agtgaaataatcagtcgtattgggcagttaacgagaatgctgcgtgatagtct
-gcgtgaactg------ggattggatcaaactatcgctcaggcggctgaggcg--------
-----------atcccagatgcgagggaacgattgaattacgttgtccaaatgacggcaca
-ggccgctgaaagggtgctgaactgcgttgaggcagcacaaccccgtcagaatgaattgga
-aacatcggcaaaaatcttgaccgaacgttgggatg-------agtggtttgcaaacccga
-agaatctggatctgaccgacgcacgctcattggtaacagatacgagaaattacctgactc
-ttgtgcctgattatgcctcatttaccagtacccaattgcttgagatcatgatggcgcaag
-atttccaagatctcacaggacaggtaatcaagcggatgatggaagtcattcaggaactgg
-aaaaacaattggtcatggtattg-------atggaaaatatgccctctgatca-------
--gatggctaaagctaaaaaagagaatgatagtcttcttaacggccctcaagtcaaccaaa
-gtggttcgggtattattgccaaccaagaacaagttgatgatttgttggatagtttaggtt
-tttga
->accession:YP_003729794.1|locus:Pvag_pPag30053|genome:Pantoea vagans C9-1
-------------------------------------------------------------
-------atgtcaccattcg---------------acacccatagtaagcagca-ggaaat
-t------accgagattacggcacgtgctggctacatcctgcggcagcttcgcgacagtct
-gcaacagctg------ggccttgataaaaccattgccgatgtggcgggaagt--------
-----------atcccgaacgcccgtgaaaggctgggttatgtggtcacaatgacccgtga
-agccgcagagggcgtcatcaacagcgtagagatcacgcagcctctgcaaaccgaactggg
-cgaaaaagcggagaagctcacacaacgctgggatg-------ccgcttccgggaattcgt
-------cggacaaagaacaggctcaggcactagctgtggataccgcggccttgctggatg
-aggtccctcgtatcacgggtctgacacaacagcagttgcacgcaattatgatgtcacagg
-gctttcaggatctcaccggacagatagttcaggcgatgatggccgtgctgaatcaggctg
-agcagcagctgatacaggttatc-------cgtgataacaccggctcacatg--------
-------------------------------gcacggccagtgcgccgtctaaacccgcct
-ccccatcagaaacccctgccagtcaggatgatgtagacgacctgctggccagtctgggaa
-tgtaa
->accession:YP_003931356.1|locus:Pvag_1719|genome:Pantoea vagans C9-1
-------------------------------------------------------------
-----atgagcgactttccg---------------aaaccaactgaggatgccg---cggc
-a------cacgacatcatttcacgtattggctcactgacgcgcatgctgcgcgacagtct
-gcgcgagctg------gggctggataaagccattgccgatgcagctgaagcc--------
-----------attcctgatgcccgcgatcgtcttgattatgtggtgcagatgacggcgca
-ggccgccgaccgtgcgctgaactgtgttgaagcagcacaaccccatcaggataagatgga
-agccggggcaacccagctgaaagggcgttgggatg-------cgtggtttgagaacccga
-------tcgaactgggtgatgcgcgggagttggtgacggatacgcgcgaattcctcaccg
-ccgtgcctgagcacaccgcctttaccaacaagcagctgcttgaaatcatgatggcgcagg
-atttccaggacctgaccggtcaggtgatcaagcgcatgatggatgtgatccaggaaattg
-agcgccagctgttaatggtgctg-------ctggagaacatgccagaagtca--------
----gcgctgagaagcgtcaggaaggcaccagcctgctgaatggaccgcagatccacgccg
-atgcaccgggcgtggtggcgaaccaggatcaggttgatgacctgctggacagcttagggt
-tctaa
->accession:YP_003775432.1|locus:Hsero_2024|genome:Herbaspirillum seropedicae SmR1
----------------------------------------------------------gtg
-gacaacggcgtcaatcccgtccg-------caacccggcggccgaaggcgccggggtcag
-c------gaagaggtgctggtccgcatcgggcacatgacccgcaacctgcacgacagcct
-gcgcggcctg------ggtttcgaccgcctgcttgaaaaggccgccagcgac--------
-----------atgccggatgcgcgcgaccgcctcgagtacgtggcgcgcatgaccgagca
-ggccgcccagcgtgtgctcaacgccaccgagctggccagccccttgcaggatcgcatcag
-cgagggcgccaccgacctcaaggcgcagtgggacgccgccaccgccggcagcttctccga
--------------ggcccactgccgcgaactggccgcccgcacctccagcttcctggccc
-aggccagtgaagacagcagcgtgaccaagcagcaactgctggacatcatgatggcccagg
-acttccaggacctgaccggccaggtcatcaagcgcgtgaccaagctggcgcatgacctgg
-aatcgcaactggtgcaactgctg-------gtggactatgcgc-----------------
----catcggaagccaagcgcgaggatacgggcctgctcaacggtccgcagatcgatccga
-ccggcaaggacgtgatcgccaaccaggggcaggtcgatgacctgctggagagcctgggtt
-tctga
+CLUSTAL format alignment by MAFFT FFT-NS-2 (v7.215)
+
+
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 --------------------------------atggaagtcactgctgaacgcact----
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 gtgaatacttcagggctaatttcgttagagcaggcaaataaattggtagacttgctgact
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 ---------------------------------------------------------gtg
+                                                                            
+
+accession:YP_00 ----------------atg---------------acaattgataatagcgccgacaactt
+accession:YP_00 ----atgagtactattccg---------------aaaccaaatgtcgatgctgcttcggc
+accession:YP_00 ----atgacggcatcgata---------------aaaccgactgacgagcatt---cgac
+accession:YP_00 -atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
+accession:YP_00 -atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
+accession:YP_00 -atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
+accession:YP_00 -atgaacgaacatccgatg---------------ccagccgccgatg------------c
+accession:YP_00 -atgatgcaacctaccgta---------------aaacccacagacgagcacg---ctgc
+accession:YP_00 -gctctgatcgaacgcctgcaaggtgcgctggacgcactggaaagcggtgacgaagccgg
+accession:YP_00 ----atgagtgaaaatccagt------------catgccgagagatgaggcagttactac
+accession:YP_00 -atgatgcaaccatcaatc---------------aaacctgctgacgagcatt---cagc
+accession:YP_00 -gtgatgagcgaccttccg---------------aaatcagctgagcaagccg---cggc
+accession:YP_00 ----atgagtactattccg---------------aaaccaaatgttgatgctgcttcggc
+accession:YP_00 ----------------atg---------------acaattgataataacgccgacaactt
+accession:YP_00 caaggcgaacaattactcgctga-------cgatttaattagagacatagctgcaccgat
+accession:YP_00 ----atgaataaccatcca---------------atgcccgcaaccgatgcggcatcagc
+accession:YP_00 ----------------------------------atgcctagagatgaggcgattcctac
+accession:YP_00 ------atgtcaccattcg---------------acacccatagtaagcagca-ggaaat
+accession:YP_00 ----atgagcgactttccg---------------aaaccaactgaggatgccg---cggc
+accession:YP_00 gacaacggcgtcaatcccgtccg-------caacccggcggccgaaggcgccggggtcag
+                                                    . . .  .                
+
+accession:YP_00 c------aaagatattttttcacgtatcgggcagttgacgcgcgtgctgcgtaacagcat
+accession:YP_00 a------caggacattatctccaaaattggttcactgacgcggatgctgcgcgacagctt
+accession:YP_00 t------ggcgacattattgtccgtatcggcagtctgacccgcatgctgcgtgacagcct
+accession:YP_00 t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
+accession:YP_00 t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
+accession:YP_00 t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
+accession:YP_00 c------ggcgatattatcgctaggattggccaactgacgcgtatgctgcgtgacagcat
+accession:YP_00 c------ggggatatcatcgcccgcattggcagcctcacccgcatgctgcgcgacagcct
+accession:YP_00 ctggcgccgggagatcgacaccctcgccgcctggcgcacacgcccgatgatgcagggcct
+accession:YP_00 c------agtgaaataatcagtcgtattgggcagttaacgagaatgctgcgcgatagtct
+accession:YP_00 t------ggcgatatcattgcgcgcatcggcagcctgacgcgtatgctgcgcgacagttt
+accession:YP_00 a------cacgatatcatttcccgcatcggttcactgacccgcatgctgcgtgacagtct
+accession:YP_00 a------caggacattatctccaaaattggtgcactgacacggatgctgcgcgacagcct
+accession:YP_00 c------aaagatattttttcacgtatcgggcagctgacgcgtgtgctgcgtaacagcat
+accession:YP_00 tc---aaaaggacctttttgaagaggtcggaagactcactcgtcagcttcatagtgcgat
+accession:YP_00 c------agtgatattattagccgtattggcagtctcacgcggatgttacgtgacagttt
+accession:YP_00 c------agtgaaataatcagtcgtattgggcagttaacgagaatgctgcgtgatagtct
+accession:YP_00 t------accgagattacggcacgtgctggctacatcctgcggcagcttcgcgacagtct
+accession:YP_00 a------cacgacatcatttcacgtattggctcactgacgcgcatgctgcgcgacagtct
+accession:YP_00 c------gaagaggtgctggtccgcatcgggcacatgacccgcaacctgcacgacagcct
+                          **  *          ...*         .  *     *     . .   *
+
+accession:YP_00 ggcaaacctc------ggtctcgaacaggtgctcaaggagatggccggtgcc--------
+accession:YP_00 gcgcgagctt------gggctggatcaggcgattgccgaagcggcagaggcg--------
+accession:YP_00 gcgcgaactg------gggcttgatcaggcgattgcggaagcggcggaagct--------
+accession:YP_00 gcgggaactg------gggctggatcaggccattgccgaagcggcggaagcc--------
+accession:YP_00 gcgggaactg------gggctggatcaggccattgccgaagcggcggaagcc--------
+accession:YP_00 gcgggaactg------gggctggatcaggccattgccgaagcggcggaagcc--------
+accession:YP_00 gaaagagctt------ggactggatcaggccatcgctcaggcagccgaagcc--------
+accession:YP_00 gcgtgaactg------gggctggaccaggcgatcgccgaagcggcggaagcg--------
+accession:YP_00 gagccgacttgcgcgcgacctgggccaggcactgggcgaactgccggtggcgcccagcga
+accession:YP_00 gcgtgaactg------gggttagatcaaaccattgctcaggcggctgaggcg--------
+accession:YP_00 gcgggaactg------ggactggatcaggccattgccgaagcggcggaagcc--------
+accession:YP_00 gcgtgagctg------gggctggatcaggccattgcagaagctgctgaagcc--------
+accession:YP_00 gcgtgaactt------ggcctggatcatgcgattgccgaagcggcagaagcg--------
+accession:YP_00 ggccaacctg------ggtcttgaacaggtgctgaaggagatggccggcgcc--------
+accession:YP_00 tgtcgatttt------caaattgatgatcgcctggttgagctaacgagtactg-------
+accession:YP_00 gcgagagtta------ggtcttgatcaagccattgctcaggccgccgaagcg--------
+accession:YP_00 gcgtgaactg------ggattggatcaaactatcgctcaggcggctgaggcg--------
+accession:YP_00 gcaacagctg------ggccttgataaaaccattgccgatgtggcgggaagt--------
+accession:YP_00 gcgcgagctg------gggctggataaagccattgccgatgcagctgaagcc--------
+accession:YP_00 gcgcggcctg------ggtttcgaccgcctgcttgaaaaggccgccagcgac--------
+                     . .*        .  * *.  .     * .   *  .  * .  .          
+
+accession:YP_00 ----------tttcctaatacccgcgaccgtcttgactatgtggtagataaaacctcgca
+accession:YP_00 ----------atccccgatgcccgcgatcgcctcgattatgtagtacagatgactgctca
+accession:YP_00 ----------ataccggacgcgcgcgaccgtctggattacgtggtgcagatgacggcgca
+accession:YP_00 ----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
+accession:YP_00 ----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
+accession:YP_00 ----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
+accession:YP_00 ----------attccggatgcccgcgaccgtctggactatgtggtgcagatgacccgcca
+accession:YP_00 ----------atcccggatgctcgcgatcgtctggactatgtggtgcagatgaccgcgca
+accession:YP_00 cgctggcgaactggatgacgcctgttcgcggctggaccacgtggtggcaatgaccgaaca
+accession:YP_00 ----------atccctgatgcgagggagcgattgaattacgttgtccagatgacggcaca
+accession:YP_00 ----------atccccgatgcgcgcgatcgtttgtactatgttgtgcagatgaccgccca
+accession:YP_00 ----------attcctgacgcccgcgaccgtctggactatgtagtgcaaaagaccgctca
+accession:YP_00 ----------atccccgatgcccgtgatcgccttgattatgtagtacagatgactgctca
+accession:YP_00 ----------ttcccgaatacccgcgaccgtcttgactacgtggtagataaaacctctca
+accession:YP_00 --------agattccggatgccaaagagcggttgacttatgtcatagatatgactgagca
+accession:YP_00 ----------atcccggatgcccgtgaccgtctggattatgtggttcatatgacagcaca
+accession:YP_00 ----------atcccagatgcgagggaacgattgaattacgttgtccaaatgacggcaca
+accession:YP_00 ----------atcccgaacgcccgtgaaaggctgggttatgtggtcacaatgacccgtga
+accession:YP_00 ----------attcctgatgcccgcgatcgtcttgattatgtggtgcagatgacggcgca
+accession:YP_00 ----------atgccggatgcgcgcgaccgcctcgagtacgtggcgcgcatgaccgagca
+                           *    .*..*  .     * .*    .*.** ..    * .**     *
+
+accession:YP_00 ggctgcaaactgcgcattaacctgcgtcgaggttgcccgtccgcttcaggagcagctggg
+accession:YP_00 ggcggcagatcgcgcgttgaactgcgtagaagcttcccagccgcgccagacgcagttgga
+accession:YP_00 ggccgcagaacgcgccctgaactgcgtcgaggcctcgcagcctcaccagaacaaactgga
+accession:YP_00 ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
+accession:YP_00 ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
+accession:YP_00 ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
+accession:YP_00 ggccgccgagcgcgccctgagctgcgttgaagcggcgcagccgcgtcagacgcagatgga
+accession:YP_00 ggccgccgagcgcgcgctgaacagcgttgaggcatcgcagccgcatcaggatgagatgga
+accession:YP_00 agccagtcaccgtaccttggatttggccgaggaatgccgtgcgctc--------------
+accession:YP_00 ggcggctgaaagggtgctgaattgcgttgaagaggcacagccccaccagaatgaattgga
+accession:YP_00 ggctgcggagcgggcgctgaacagtgttgaggcgtcacaaccgcatcaggatcaaatgga
+accession:YP_00 ggcggccgacagggcgctgaacagcgtcgaagcagcgcaaccgcaccaggacaaaatgga
+accession:YP_00 ggcggcagatcgcgcgttgaactgcgtagaagcttcccagccgcgtcagacggtgttgga
+accession:YP_00 ggccgccaactgtgcattaacctgcgtcgaggtggcccgcccgcttcaggagcagttagg
+accession:YP_00 agctgctaataaaaccatggacgcagttgaagaatgtcttcccctggccaatgctctttc
+accession:YP_00 ggccgcagaaagggcgcttaactgtgtcgaggcggcacaaccgcgtcagaacgaactgga
+accession:YP_00 ggccgctgaaagggtgctgaactgcgttgaggcagcacaaccccgtcagaatgaattgga
+accession:YP_00 agccgcagagggcgtcatcaacagcgtagagatcacgcagcctctgcaaaccgaactggg
+accession:YP_00 ggccgccgaccgtgcgctgaactgtgttgaagcagcacaaccccatcaggataagatgga
+accession:YP_00 ggccgcccagcgtgtgctcaacgccaccgagctggccagccccttgcaggatcgcatcag
+                .** .   *  . ..  * . .   .. **.          * .                
+
+accession:YP_00 caaccaggcgactgccctgtcggccaactgggacg-------catggtttgccaacccac
+accession:YP_00 agatggagcgaagcaactcaaaggccgttgggatg-------agtggtttgaaaatccta
+accession:YP_00 aaacgacgcgaaagcgctgagcggccgctgggacg-------aatggttcgagaacccga
+accession:YP_00 gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
+accession:YP_00 gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
+accession:YP_00 gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
+accession:YP_00 gaagggctccaaagagctcaagcagcgttgggatg-------cctggtttgaaaatccga
+accession:YP_00 gaaaggggccaaagcgctgagcaagcgctgggatg-------aatggtttgaaaacccga
+accession:YP_00 ------------------------------------------------------------
+accession:YP_00 atcttcggcgaaatccttaacccagcgctgggatg-------agtggtttgcaaacccga
+accession:YP_00 gaaatcagcaaaagcgttaacccaacgttgggatg-------actggtttgccgatccga
+accession:YP_00 agcgggcgcgattgcgctgaaaggacgctgggatg-------cgtggtttgaaaatccaa
+accession:YP_00 agatggcgcgaaacaactgaaaggtcgttgggatc-------agtggtttgaaaatccta
+accession:YP_00 cagccaggcgactgccctgtcggccaaatgggacg-------catggtttgccaatccac
+accession:YP_00 ggctaatattcaatctgtaaagcctgcatgggatc---gactcatgaggcgtgaaattga
+accession:YP_00 atcatcagcaaaggcgctaaaaattcgctgggatg-------agtggtttgccaatccaa
+accession:YP_00 aacatcggcaaaaatcttgaccgaacgttgggatg-------agtggtttgcaaacccga
+accession:YP_00 cgaaaaagcggagaagctcacacaacgctgggatg-------ccgcttccgggaattcgt
+accession:YP_00 agccggggcaacccagctgaaagggcgttgggatg-------cgtggtttgagaacccga
+accession:YP_00 cgagggcgccaccgacctcaaggcgcagtgggacgccgccaccgccggcagcttctccga
+                                                                            
+
+accession:YP_00 ------agccgcttgaggacgcacgcgagctggtgatacagacacgcgcctatctgcaac
+accession:YP_00 ------tcgaactggcagatgctcgctctttggtttcggacacgcgcggctatctggaag
+accession:YP_00 ------tcgaactgagcgacgcgcgcgaactcgtgaccgacacccgccagtatctggcag
+accession:YP_00 ------ttgaccttgccgacgcccgtgaactggtaacagatacacgacaatttctggcag
+accession:YP_00 ------ttgaccttgccgacgcccgtgaactggtaacagatacacgacaatttctggcag
+accession:YP_00 ------ttgaccttgccgacgcccgtgaactggtaacagatacacgacaatttctggcag
+accession:YP_00 ------tcgagcttgaggatgccagggcgctggtaacggatacccgccagttcttgagcg
+accession:YP_00 ------tggagcttgctgacgcccgcgagctggtcaccgacacgcgtaaatttctcagcg
+accession:YP_00 -----gccgaacaattgcgtgccggcggcctgagtggcgaccagagcgagatcctggaca
+accession:YP_00 acaatctggaattgacagaggctcgctcactggtgacagataccagagattatctcaatc
+accession:YP_00 ------ttgaccttgccgacgcccgtgaactggtaacagatacgcggaaatttctggcag
+accession:YP_00 ------ttgaacttgccgacgcgcgcgagctggtgacggatacgcgtgagtatttagggg
+accession:YP_00 ------tcgaactggcagacgctcgctctttggtttcggacacgcgcggttatctggcag
+accession:YP_00 ------agccacttgaggacgcacgcgaactggttattcagacgcgcgcctacctgcaac
+accession:YP_00 ---------gctcagcgaatttaaacccttgtgtcacaaggttcaacaatttgtcgagcg
+accession:YP_00 ------tcgagctgtcagatgcccgttcactggtcacggatacgcgagaatatttagcgg
+accession:YP_00 agaatctggatctgaccgacgcacgctcattggtaacagatacgagaaattacctgactc
+accession:YP_00 ------cggacaaagaacaggctcaggcactagctgtggataccgcggccttgctggatg
+accession:YP_00 ------tcgaactgggtgatgcgcgggagttggtgacggatacgcgcgaattcctcaccg
+accession:YP_00 -------------ggcccactgccgcgaactggccgcccgcacctccagcttcctggccc
+                                  .     .    .  .      .             ..     
+
+accession:YP_00 aggtacctgaggttacccgggaaaccaatcagcagctgaccgagatcatgatggcgcagg
+accession:YP_00 cagtgccgggacatacgtctttcactaatgcccagctgatggaaatcatgatggctcagg
+accession:YP_00 aggttccggatcacacgagcttcaccaacgcccagcttctggaaatcatgatggcgcagg
+accession:YP_00 atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
+accession:YP_00 atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
+accession:YP_00 atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
+accession:YP_00 aggtgccggagcatacggccttcactcacagccagctgctcgaaatcatgatggcgcagg
+accession:YP_00 acgtgccggagcacaccagtttcaccaacgcgcagttgctcgacatcatgatggcgcagg
+accession:YP_00 agatccgccacaac---------------------ctcaccgaaatggctctggcgcaga
+accession:YP_00 ttgtacctgaacatgtctcatttaccaatactcaattgcttgagatcatgatggcgcaag
+accession:YP_00 atgtacccgcgcataccagctttactaacgcgcaactgctggaaatcatgatggcgcagg
+accession:YP_00 aagtgcctacgcacacctcttttactaacaagcagttgctcgacatcatgatggcgcagg
+accession:YP_00 cagtgccggaacatacgtccttcaccaatgcccagctgatggaaatcatgatggctcagg
+accession:YP_00 aggttcctgaggtcacccgcagcaccaatcagcagctgaccgatatcatgatggcgcagg
+accession:YP_00 aagtgaattag-attctatccgtttgaaagaactgttaaaccaaatattacttgcccaag
+accession:YP_00 ttgtcccacagcacacttcatttaccaatgcgcaattattggaaatcatgatggcgcagg
+accession:YP_00 ttgtgcctgattatgcctcatttaccagtacccaattgcttgagatcatgatggcgcaag
+accession:YP_00 aggtccctcgtatcacgggtctgacacaacagcagttgcacgcaattatgatgtcacagg
+accession:YP_00 ccgtgcctgagcacaccgcctttaccaacaagcagctgcttgaaatcatgatggcgcagg
+accession:YP_00 aggccagtgaagacagcagcgtgaccaagcagcaactgctggacatcatgatggcccagg
+                  ..         .                     .*       **  .  *  * **..
+
+accession:YP_00 acttccaggatttgaccgggcaagttctgcaaggcctggtgaatgtgattgagctggtgg
+accession:YP_00 acttccaggatctgaccgggcaggtgattaaacgcatgatggatgtgatccaggaaatcg
+accession:YP_00 atttccaggatctgaccggtcaggtgatcaagcgcatgatggatgttatccaggagattg
+accession:YP_00 attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
+accession:YP_00 attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
+accession:YP_00 attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
+accession:YP_00 atttccaggatctgaccggtcaggtgatcaagcgcatgatggacgtgatccaggagatcg
+accession:YP_00 atttccaggatctgaccggtcaggtgatcaagcgcatgatggatgtgattcaggagatcg
+accession:YP_00 gcttccaggacctgaccggacagatcatccgccgcgtcgcaggaattgtgcgccgtgtgc
+accession:YP_00 actttcaggatctgacagggcaggtcatcaaacggatgatggaagttattcaggagctgg
+accession:YP_00 attttcaggatctcaccgggcaggtcattaagcggatgatggatgtcattcaggagatcg
+accession:YP_00 atttccaggaccttaccggtcaggtcatcaagcgcatgatggatgtgatccaggagatcg
+accession:YP_00 acttccaggatctgaccgggcaagtgatcaaacgtatgatggatgtgatccaggaaattg
+accession:YP_00 acttccaggatttgaccgggcaagttctgcaaggcctggtgaatgtgattgagctggtgg
+accession:YP_00 attttcaagatttgactgggcagatgataaaaagggttatcgatctcgttcgtgaagtag
+accession:YP_00 atttccaggacctgaccggtcaggttatcaaacgcatgatggatgtggtacaggaaattg
+accession:YP_00 atttccaagatctcacaggacaggtaatcaagcggatgatggaagtcattcaggaactgg
+accession:YP_00 gctttcaggatctcaccggacagatagttcaggcgatgatggccgtgctgaatcaggctg
+accession:YP_00 atttccaggacctgaccggtcaggtgatcaagcgcatgatggatgtgatccaggaaattg
+accession:YP_00 acttccaggacctgaccggccaggtcatcaagcgcgtgaccaagctggcgcatgacctgg
+                ..**.**.**..* ** ** **..*  *  .     * .. .   *  .  .     .  
+
+accession:YP_00 aaaaagagctgatctgcgtgctg-------ctggaaaatatgcaggagatag--------
+accession:YP_00 agcgtcagctgctgacggttctg-------cttgaaaacgtccctgatcaag--------
+accession:YP_00 agcgccagcttctgatggtgctg-------ctggagaacatgccggagccga--------
+accession:YP_00 aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
+accession:YP_00 aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
+accession:YP_00 aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
+accession:YP_00 aaaagcagctgctgatggtgctg-------ctggagaatatgccggagcagc--------
+accession:YP_00 aacgccagctgctgatggtgctg-------ttggagaacattccggagcagg--------
+accession:YP_00 acgaagggttcggcgcgctgggattaccg-ccgaaggaagaacgcaaagccg--------
+accession:YP_00 aaaaacaactggttatggtgtta-------atggaaaatatgccttctgacca-------
+accession:YP_00 aacgccagttgctgatggtgctg-------ttggaaaacatcccggaacagg--------
+accession:YP_00 agcgccagctgttgatggtgctg-------ctggaaaacatgccagaagtga--------
+accession:YP_00 agcgtcagctgctgacggttctg-------ctggaaaacgtgcccgatcaag--------
+accession:YP_00 aaaaagagctgatctgcgtgctg-------ctggaaaatatgcaggaattag--------
+accession:YP_00 aaaataatttagtctcgatgctgacggtatttggtgaacaacccgtcagtgaaaatccga
+accession:YP_00 agaaacagctcctcatggttttg-------atggagaatattcccgatatcc--------
+accession:YP_00 aaaaacaattggtcatggtattg-------atggaaaatatgccctctgatca-------
+accession:YP_00 agcagcagctgatacaggttatc-------cgtgataacaccggctcacatg--------
+accession:YP_00 agcgccagctgttaatggtgctg-------ctggagaacatgccagaagtca--------
+accession:YP_00 aatcgcaactggtgcaactgctg-------gtggactatgcgc-----------------
+                *     . .*        *              .   * .                    
+
+accession:YP_00 ---aacccgatcgcgacgattctcaagcgcagctgaaaaatggtccgcaaatcaactcta
+accession:YP_00 ---gtcagcgtgtcaaaaaagagaccaataatttgcttaatggcccgcagattaatgcgg
+accession:YP_00 ---acgcgcgcgccaagcgcccgaacgagagcctgctcaatggtccgcagctggacgcta
+accession:YP_00 ---agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
+accession:YP_00 ---agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
+accession:YP_00 ---agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
+accession:YP_00 ---cgcccaagccgaagcgtgaaaatgacagcctgctgaatggcccgcagatgaaccaga
+accession:YP_00 ---gcgcgcggccaaaacgtgaaagcgatagcctgctcaatggcccgcaggtcgatacca
+accession:YP_00 ------------------------atggcggcttggccggcccagccctacctggcctgg
+accession:YP_00 -gatggccaaagcgaaaaaagaaaacgacagccttcttaatggccctcaggttaatcaga
+accession:YP_00 ---agtcgcgtccaaaacgtgaaaaccagagtttgcttaatggacctcaggtcgatacca
+accession:YP_00 ---gcgccgagaaacgtcaggttggcaccacgctgcttaacggacctcaggtcaatgccg
+accession:YP_00 ---gtcagcgtgtcaaaaaagagaccaacaatttgctcaatggcccgcagattaatgcgg
+accession:YP_00 ---aacccgatcgcgacgatgctcaagcgcagctgaaaaatggtccgcaaatcaattcca
+accession:YP_00 caatcatcgatagtagtgttgaggccgaagggccgatca--tgaacgctgaacaacgtga
+accession:YP_00 ---cgtcaaaaccgcagaaaccgacggacagtttacttaatggcccgcagatggataaaa
+accession:YP_00 -gatggctaaagctaaaaaagagaatgatagtcttcttaacggccctcaagtcaaccaaa
+accession:YP_00 ------------------------------gcacggccagtgcgccgtctaaacccgcct
+accession:YP_00 ---gcgctgagaagcgtcaggaaggcaccagcctgctgaatggaccgcagatccacgccg
+accession:YP_00 ---catcggaagccaagcgcgaggatacgggcctgctcaacggtccgcagatcgatccga
+                                                 .    .      * .       .    
+
+accession:YP_00 ccgccgaaggcatcgtcgcctcgcaggagcaggtggatgatttgctggaatcgcttggct
+accession:YP_00 ccgcgccaaacgtggtggcaagccaggatcaggttgacgacctgctggatagtctcgggt
+accession:YP_00 ccgccgccggcgtcgtggcaagccaggatcaggtcgacgacctgctcgacagtctgggct
+accession:YP_00 gcaaagccggcgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
+accession:YP_00 gcaaagccggtgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
+accession:YP_00 gcaaagccggtgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
+accession:YP_00 acgggccgggtgtggtcgccaaccaggagcaggtcgacgacctgctggacagcctgggat
+accession:YP_00 gcaaagcgggcgtggtcgccagccaggatcaggttgacgatctgctggacagcctcggtt
+accession:YP_00 accgtcacggcgtgtcg------caaaacgacgccgacgacctgctgtccggattggggt
+accession:YP_00 atggagcaggtgttattgccaaccaagcacaggttgatgatttattggatagtttaggtt
+accession:YP_00 gcaaagccggtgtggtagccagtcaggatcaggtggacgatttgttggatagtcttggat
+accession:YP_00 ctgcgccaggcgtcgtggcgaatcaggaccaggttgatgacctgctggacagcctgggtt
+accession:YP_00 ctgcgccgaacgtggtggcaagccaggatcaggttgatgacctgctggacagtcttgggt
+accession:YP_00 ccgccgaaggcattgtcgcttcacaggagcaggttgatgatttgctggaatcgcttggct
+accession:YP_00 c-------gatgtcgtcgcaggtcaagatgaagttgatgatctgctgtcgagtttgggtt
+accession:YP_00 atgttgccggtgttatcgccagtcaagatcaggttgatgatttgctggatagtttaggtt
+accession:YP_00 gtggttcgggtattattgccaaccaagaacaagttgatgatttgttggatagtttaggtt
+accession:YP_00 ccccatcagaaacccctgccagtcaggatgatgtagacgacctgctggccagtctgggaa
+accession:YP_00 atgcaccgggcgtggtggcgaaccaggatcaggttgatgacctgctggacagcttagggt
+accession:YP_00 ccggcaaggacgtgatcgccaaccaggggcaggtcgatgacctgctggagagcctgggtt
+                        .. ..  .       **..   * *. **.**..*..*       .* **  
+
+accession:YP_00 tctga
+accession:YP_00 tctga
+accession:YP_00 tctga
+accession:YP_00 tttga
+accession:YP_00 tttga
+accession:YP_00 tttga
+accession:YP_00 tttaa
+accession:YP_00 tttaa
+accession:YP_00 tgtaa
+accession:YP_00 tttga
+accession:YP_00 tttga
+accession:YP_00 tctaa
+accession:YP_00 tctga
+accession:YP_00 tctga
+accession:YP_00 tttaa
+accession:YP_00 tttaa
+accession:YP_00 tttga
+accession:YP_00 tgtaa
+accession:YP_00 tctaa
+accession:YP_00 tctga
+                * *.*
