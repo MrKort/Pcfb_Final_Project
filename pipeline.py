@@ -22,6 +22,7 @@ Seq_count.close()
 print
 print "Showing all", seq_num, "individual sequences from", string, "files:"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
+os.system('grep ">" -h '+string+" | sort | uniq -c > workdir/seq_names.txt")
 
 # Concatenate all files into a single inputfile for the pipeline
 print
