@@ -28,8 +28,11 @@ print "Concatenating all", string, "files."
 os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alignment."
 
-# Sed to get clear sequence headers (YP_0123.1|)
+# Sed to get clear sequence headers to numbers only (01234)
 os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/' -i workdir/input.fas")
+os.system("sed -r -e 's/[A-Z]{2}\_//g' -i workdir/input.fas")
+os.system("sed -r -e 's/\.//g' -i workdir/input.fas")
+os.system("sed -r -e 's/\|/ /g' -i workdir/input.fas")
 
 # Start the Multiple Sequence Alignments
 os.system('mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas')
@@ -41,10 +44,14 @@ mafft = Format_mafft.readlines()
 # While loop to select all lines per sequence from the outputfiles
 i = 0
 dictio={}
+out=open("test.txt", "w")
 while i < seq_num:
-	dictio[i] = [mafft[i+3::22]]
+	dictio[i] = [mafft[i+3::seq_num+2]]
 	i += 1
-#print dictio[0]
+print dictio[0]
+#out.write(dictio[0])
+
+
 
 # Need to count the characters in the aligned sequences
 # Need to remove the **?? lines (already fixed by the way the while loop selects the sequences)
