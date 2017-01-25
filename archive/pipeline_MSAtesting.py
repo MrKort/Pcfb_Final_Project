@@ -8,6 +8,8 @@ import sys
 #Be sure to enclose it in apostorphes like: "file*.faa", if you wish to select all files of a certain type
 string=sys.argv[1]
 
+os.system('mkdir workdir')
+
 print "Showing all individual sequences from ", string, " files:"
 os.system('grep ">" -h '+string+" | sort | uniq -c") 
 os.system('grep ">" -h '+string+" | sort | uniq -c > workdir/seq_names.txt")
@@ -18,11 +20,11 @@ os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alingment"
 
 # Start the Multiple Sequence Alignments
-os.system('mafft --localpair --maxiterate 1000 --op 5 --lop 1 workdir/input.fas > workdir/mafft_output2.fas')
-os.system('mafft --localpair --maxiterate 1000 --op 15 --lop 5 workdir/input.fas > workdir/mafft_output3.fas')
-os.system('mafft --localpair --maxiterate 1000 --op 25 --lop 15 workdir/input.fas > workdir/mafft_output4.fas')
-os.system('mafft --localpair --maxiterate 1000 --op 25 --lop 25 workdir/input.fas > workdir/mafft_output5.fas')
-os.system('mafft --localpair --maxiterate 1000 --op 250 --lop 150 workdir/input.fas > workdir/mafft_output6.fas')
+os.system('mafft --localpair --maxiterate 1000 --lop 5 --lexp 1 workdir/input.fas > workdir/mafft_output2.fas')
+os.system('mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 workdir/input.fas > workdir/mafft_output3.fas')
+os.system('mafft --localpair --maxiterate 1000 --lop 25 --lexp 15 workdir/input.fas > workdir/mafft_output4.fas')
+os.system('mafft --localpair --maxiterate 1000 --lop 25 --lexp 25 workdir/input.fas > workdir/mafft_output5.fas')
+os.system('mafft --localpair --maxiterate 1000 --lop 250 --lexp 150 workdir/input.fas > workdir/mafft_output6.fas')
 os.system('muscle -gapopen -15 -gapextend -5 -in workdir/input.fas -out workdir/muscle_output2.fas')
 os.system('mafft --localpair --maxiterate 1000 workdir/input.fas > workdir/mafft_output.fas')
 os.system('muscle -in workdir/input.fas -out workdir/muscle_output.fas')

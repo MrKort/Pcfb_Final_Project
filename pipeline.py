@@ -32,7 +32,7 @@ print "Starting Multiple Sequence Alignment."
 os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/' -i workdir/input.fas")
 
 # Start the Multiple Sequence Alignments
-os.system('mafft --localpair --maxiterate 1000 --op 25 --lop 25 --clustalout workdir/input.fas > workdir/mafft_output.fas')
+os.system('mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas')
 
 # Open MSA output files, readlines, and store in lists
 Format_mafft = open("workdir/mafft_output.fas")
