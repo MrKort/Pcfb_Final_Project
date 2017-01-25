@@ -43,7 +43,7 @@ The multiple sequence alignments were visualized with Aliview, to investigate an
 Two freely available methods/packages were tried to construct the phylogenetic tree: Phylip and MEGA. MEGA claims to have command line functionality, yet when we want to run a function it opens a GUI. This is not what we want, because we want a fully automated pipeline. So we decided to continue with Phylip.
 
 
-Started working on pipeline. - Kort
+Still working on pipeline. - Kort
 
 Trying to refine msa by muscle and mafft - H
 Looking into how to make phylogenetic trees - Kort
