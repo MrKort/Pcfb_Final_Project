@@ -39,6 +39,10 @@ os.system('muscle -in input.fas -out muscle(\_)output.fas')
 
 The multiple sequence alignments were visualized with Aliview, to investigate and test the different arguments available for the aligners. The default parameters of both muscle and mafft are usefull already. The gap penalties for the aligners was changed to obtain the best alignment possible for the toy set. After visualization it was decided that we would work with mafft and gap penalty 25, both openening and extending. Once the pipeline is completed, we should test the settings with a different protein.
 
+
+Two freely available methods/packages were tried to construct the phylogenetic tree: Phylip and MEGA. MEGA claims to have command line functionality, yet when we want to run a function it opens a GUI. This is not what we want, because we want a fully automated pipeline. So we decided to continue with Phylip.
+
+
 Started working on pipeline. - Kort
 
 Trying to refine msa by muscle and mafft - H
