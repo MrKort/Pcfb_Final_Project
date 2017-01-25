@@ -38,8 +38,15 @@ os.system("sed -r -e 's/\|/ /g' -i workdir/input.fas")
 os.system('mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas')
 
 # Open MSA output files, readlines, and store in lists
-Format_mafft = open("workdir/mafft_output.fas")
-mafft = Format_mafft.readlines()
+Mafft = open("workdir/mafft_output.fas")
+mafft = Mafft.readlines()
+Mafft.close()
+
+os.system("grep '^$' workdir/mafft_output.fas | wc -l > workdir/blocks.txt")
+Blocks = open("workdir/blocks.txt")
+blocks = Blocks.readlines()
+Blocks.close()
+seq_blocks = int(blocks[0])-1
 
 # While loop to select all lines per sequence from the outputfiles
 i = 0
@@ -48,7 +55,14 @@ out=open("test.txt", "w")
 while i < seq_num:
 	dictio[i] = [mafft[i+3::seq_num+2]]
 	i += 1
-print dictio[0]
+i = 0
+j = 0
+#while i < seq_num:
+while j < seq_blocks:
+	print dictio[0][0][j]
+#		i += 1
+	j +=1
+
 #out.write(dictio[0])
 
 
