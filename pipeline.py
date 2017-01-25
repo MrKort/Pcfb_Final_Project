@@ -63,8 +63,10 @@ print dictio[0]
 # Second block (Names sequences)
 #
 # rm phylip files first! - clean up last run
-# phylip dnadist < input > screenout
-# phylip protdist < input > screenout
+# if string[-3:] == "fnt"
+# 	phylip dnadist < input > screenout
+# elif string[-3:] == "faa"
+# 	phylip protdist < input > screenout
 # mv outfile > workdir/distance.dat
 # write "Y" in distance.dat header for screenout
 # phylip neighbor < workdir/distance.dat > screenout
