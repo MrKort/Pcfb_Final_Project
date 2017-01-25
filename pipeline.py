@@ -52,17 +52,19 @@ print dictio[0]
 #out.write(dictio[0])
 
 
-
 # Need to count the characters in the aligned sequences
-# Need to remove the **?? lines (already fixed by the way the while loop selects the sequences)
-# Maybe need to remove sequence names after first block
+
+
 # Need to print in format:
-#
 # Sequence number ##whitespace## Characters in sequence
-# First block (Names| sequences)
-# Second block (Names| sequences)
+# Y (for screenout functionality)
+# ##blank line##
+# First block (Names sequences)
+# Second block (Names sequences)
 #
+# rm phylip files first! - clean up last run
 # phylip dnadist < input > screenout
 # phylip protdist < input > screenout
-# mv outfile > distance.dat
-# phylip neighbor < input2 > screenout
+# mv outfile > workdir/distance.dat
+# write "Y" in distance.dat header for screenout
+# phylip neighbor < workdir/distance.dat > screenout
