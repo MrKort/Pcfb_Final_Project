@@ -29,53 +29,65 @@ os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alignment."
 
 # Sed to get clear sequence headers to numbers only (01234)
-os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/' -i workdir/input.fas")
+os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/g' -i workdir/input.fas")
 os.system("sed -r -e 's/[A-Z]{2}\_//g' -i workdir/input.fas")
 os.system("sed -r -e 's/\.//g' -i workdir/input.fas")
 os.system("sed -r -e 's/\|/ /g' -i workdir/input.fas")
 
-# Start the Multiple Sequence Alignments
-os.system('mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas')
+# Run the Multiple Sequence Alignments
+os.system("mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas")
+
+# Determine the amount of blocks of sequences
+os.system("grep '^$' workdir/mafft_output.fas | wc -l > workdir/blocks.txt")
+Blocks = open("workdir/blocks.txt")
+blocks = Blocks.readlines()
+Blocks.close()
+seq_blocks = int(blocks[0])-1 # Minus 1 because of the extra line behind the header
 
 # Open MSA output files, readlines, and store in lists
 Mafft = open("workdir/mafft_output.fas")
 mafft = Mafft.readlines()
 Mafft.close()
 
-os.system("grep '^$' workdir/mafft_output.fas | wc -l > workdir/blocks.txt")
-Blocks = open("workdir/blocks.txt")
-blocks = Blocks.readlines()
-Blocks.close()
-seq_blocks = int(blocks[0])-1
-
 # While loop to select all lines per sequence from the outputfiles
 i = 0
 dictio={}
-out=open("test.txt", "w")
 while i < seq_num:
-	dictio[i] = [mafft[i+3::seq_num+2]]
+	dictio[i] = mafft[i+3::seq_num+2]
+	i += 1
+
+# Remove the Sequence names from the MAFFT output so the sequence lenght can be calculated
+os.system("sed -r -e 's/.+\s//g' -i workdir/mafft_output.fas")
+
+# Open MSA output files, readlines, and store in lists
+Mafft = open("workdir/mafft_output.fas")
+mafft2 = Mafft.readlines()
+Mafft.close()
+
+i = 0
+seqio={}
+while i < seq_num:
+	seqio[i] = mafft2[i+3::seq_num+2]
 	i += 1
 i = 0
-j = 0
-#while i < seq_num:
-while j < seq_blocks:
-	print dictio[0][0][j]
-#		i += 1
-	j +=1
+seq_len = 0
+while i < seq_blocks:
+	seq_len += len(seqio[0][i])
+	i += 1
 
-#out.write(dictio[0])
+# Double while loop to write PHYLIP format to output file
+out=open("mafft_output.phy", "w")
+out.write(str(seq_num)+"\t"+str(seq_len)+"\n")
+i = 0
+while i < seq_blocks:
+	j = 0
+	while j < seq_num:
+		out.write(dictio[j][i]) # Write to file
+		j += 1
+	out.write('\n') # Give a newline in between blocks
+	i += 1
+out.close()
 
-
-# Need to count the characters in the aligned sequences
-
-
-# Need to print in format:
-# Sequence number ##whitespace## Characters in sequence
-# Y (for screenout functionality)
-# ##blank line##
-# First block (Names sequences)
-# Second block (Names sequences)
-#
 # rm phylip files first! - clean up last run
 # if string[-3:] == "fnt"
 # 	phylip dnadist < input > screenout
