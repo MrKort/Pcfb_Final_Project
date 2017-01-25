@@ -53,4 +53,4 @@ while i < seq_num:
 #
 # Sequence number ##whitespace## Characters in sequence
 # First block (Names| sequences)
-# Second block (Only? sequences)
+# Second block (Names| sequences)
