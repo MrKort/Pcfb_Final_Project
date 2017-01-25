@@ -6,6 +6,7 @@ import sys
 # sys.argv takes the file name you want to search. 
 #Be sure to enclose it in apostorphes like: "file*.faa", if you wish to select all files of a certain type
 string=sys.argv[1]
+os.system("mkdir workdir/")
 
 # Count number of sequences and write sequence names to seq_names.txt
 os.system('grep ">" -ho '+string+" | wc -l > workdir/seq_names.txt")
@@ -44,12 +45,12 @@ blocks = Blocks.readlines()
 Blocks.close()
 seq_blocks = int(blocks[0])-1 # Minus 1 because of the extra line behind the header
 
-# Open MSA output files, readlines, and store in lists
+# Open MSA output file, read lines, and store in list
 Mafft = open("workdir/mafft_output.fas")
 mafft = Mafft.readlines()
 Mafft.close()
 
-# While loop to select all lines per sequence from the outputfiles
+# While loop to select all lines per sequence from the outputfile list
 i = 0
 dictio={}
 while i < seq_num:
@@ -59,16 +60,19 @@ while i < seq_num:
 # Remove the Sequence names from the MAFFT output so the sequence lenght can be calculated
 os.system("sed -r -e 's/.+\s//g' -i workdir/mafft_output.fas")
 
-# Open MSA output files, readlines, and store in lists
+# Open MSA output file, read lines, and store in list
 Mafft = open("workdir/mafft_output.fas")
 mafft2 = Mafft.readlines()
 Mafft.close()
 
+# While loop to select all lines per sequence for the outputfile list
 i = 0
 seqio={}
 while i < seq_num:
 	seqio[i] = mafft2[i+3::seq_num+2]
 	i += 1
+
+# While loop to count the sequence length of the alignment
 i = 0
 seq_len = 0
 while i < seq_blocks:
@@ -76,13 +80,13 @@ while i < seq_blocks:
 	i += 1
 
 # Double while loop to write PHYLIP format to output file
-out=open("mafft_output.phy", "w")
-out.write(str(seq_num)+"\t"+str(seq_len)+"\n")
+out=open("workdir/mafft_output.phy", "w")
+out.write(str(seq_num)+"\t"+str(seq_len)+"\n") # Write PHYLIP header
 i = 0
 while i < seq_blocks:
 	j = 0
 	while j < seq_num:
-		out.write(dictio[j][i]) # Write to file
+		out.write(dictio[j][i]) # Write blocks of sequences to file
 		j += 1
 	out.write('\n') # Give a newline in between blocks
 	i += 1
