@@ -1,5 +1,4 @@
 #! /usr/bin/env python
-
 import os
 import sys
 
@@ -29,23 +28,20 @@ print "Concatenating all", string, "files."
 os.system('cat '+string+" > workdir/input.fas")
 print "Starting Multiple Sequence Alignment."
 
+# Sed to get clear sequence headers (YP_0123.1|)
 os.system("sed -r -e 's/>accession:(\w+.*)\|/>\\1/' -i workdir/input.fas")
 
 # Start the Multiple Sequence Alignments
 os.system('mafft --localpair --maxiterate 1000 --op 25 --lop 25 --clustalout workdir/input.fas > workdir/mafft_output.fas')
-#os.system('muscle -in workdir/input.fas -clw -out workdir/muscle_output.fas')
 
 # Open MSA output files, readlines, and store in lists
-#Format_muscle = open("workdir/muscle_output.fas")
 Format_mafft = open("workdir/mafft_output.fas")
-#muscle = Format_muscle.readlines()
 mafft = Format_mafft.readlines()
 
 # While loop to select all lines per sequence from the outputfiles
 i = 0
 dictio={}
 while i < seq_num:
-#	muscle[i+3::22]
 	dictio[i] = [mafft[i+3::22]]
 	i += 1
 #print dictio[0]
