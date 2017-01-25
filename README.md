@@ -42,6 +42,11 @@ The multiple sequence alignments were visualized with Aliview, to investigate an
 
 Two freely available methods/packages were tried to construct the phylogenetic tree: Phylip and MEGA. MEGA claims to have command line functionality, yet when we want to run a function it opens a GUI. This is not what we want, because we want a fully automated pipeline. So we decided to continue with Phylip.
 
+USING PHYLIP:
+First a distance matrix has to be made based on the multiple sequence alignment.
+For protein sequences the command phylip protdist has to be used, for dna sequences the command phylip dnadist needs to be used to generate the distance matrix.
+The distance matrix will be fed to phylip neighbor to generate the tree. In turn, the output file from this will be given to a visualizer to visualize the tree.
+
 
 Still working on pipeline. - Kort
 

@@ -61,3 +61,8 @@ print dictio[0]
 # Sequence number ##whitespace## Characters in sequence
 # First block (Names| sequences)
 # Second block (Names| sequences)
+#
+# phylip dnadist < input > screenout
+# phylip protdist < input > screenout
+# mv outfile > distance.dat
+# phylip neighbor < input2 > screenout
