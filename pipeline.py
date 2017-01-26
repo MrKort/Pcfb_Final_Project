@@ -95,27 +95,33 @@ while i < seq_blocks:
 # rm phylip files first! - clean up last run
 #os.system("rm workdir/infile workdir/outfile workdir/infile2 workdir/outtree workdir/")
 
-#To create the input files used with the phylip commands. This will use the default settings of each function.
+# To create the input files used with the phylip commands. This will use the default settings of each function.
+# The file input will be used to obtain the distance matrix
 os.system("echo 'workdir/mafft_output.phy' > workdir/input")
 os.system("echo 'Y' >> workdir/input")
 os.system("echo '' >> workdir/input")
 
+# The file input2 will be used to generate the tree
 os.system("echo 'workdir/distance.dat' > workdir/input2")
 os.system("echo 'Y' >> workdir/input2")
 os.system("echo '' >> workdir/input2")
 
+# With the i elif statement will be checked which function to call to calculate the distance matrix.
+# dnadist is for dna, protdist is for protein
 if string[-3:] == "fnt":
 	os.system("phylip dnadist < workdir/input")
 elif string[-3:] == "faa":
 	os.system("phylip protdist < workdir/input")
+
+# Move the outfile generated with the above code to a new name. This file is input for the tree construction
 os.system("mv outfile workdir/distance.dat")
 os.system("phylip neighbor < workdir/input2")
-os.system("mv outfile workdir/output_tree")
-os.system("mv outtree workdir/phylo_tree")
+#os.system("mv outfile workdir/output_tree")
+#os.system("mv outtree workdir/phylo_tree")
 
 # Instead of phylip draw function, biopython could be used for tree visualization
 
-#from Bio import Phylo
-#tree = Phylo.read("workdir/outtree", "newick")
-#Phylo.draw_ascii(tree)
+from Bio import Phylo
+tree = Phylo.read("workdir/outtree", "newick")
+Phylo.draw_ascii(tree)
 
