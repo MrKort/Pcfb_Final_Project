@@ -100,3 +100,5 @@ out.close()
 # mv outfile > workdir/distance.dat
 # write "Y" in distance.dat header for screenout
 # phylip neighbor < workdir/distance.dat > screenout
+
+# Instead of phylip draw function, biopython could be used for tree visualization
