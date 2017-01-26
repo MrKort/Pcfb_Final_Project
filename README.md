@@ -4,6 +4,13 @@ Owner: K. Kort
 Contributor: H. Kruize
 Aim of this Git: Store scripts and programs for the "Multiple Sequence Alignment - Phylogenetic tree" pipeline
 
+To run the script the following programs are needed:
+Python
+Biopython
+python-networkx
+MAFFT
+Phylip
+
 Our pipeline is written in a python wrapper so that we can better handle program arguments.
 
 Data retrieval:

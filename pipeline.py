@@ -1,6 +1,12 @@
 #! /usr/bin/env python
 import os
 import sys
+from Bio import Phylo
+
+# PhyloXML allows for improved plot drawing. For now this is left out.
+# Some systems need to import PhyloXML, this depends on the python and biopython version
+#from Bio.Phylo.PhyloXML import Phylogeny
+#tree = Phylogeny.from_tree(tree)
 
 # Please use the proper extentions for the DNA sequences (000.fnt) and the Amino Acid sequences (000.faa)
 # sys.argv takes the file name you want to search. 
@@ -92,9 +98,6 @@ while i < seq_blocks:
 #	i += 1
 #out.close()
 
-# rm phylip files first! - clean up last run
-#os.system("rm workdir/infile workdir/outfile workdir/infile2 workdir/outtree workdir/")
-
 # To create the input files used with the phylip commands. This will use the default settings of each function.
 # The file input will be used to obtain the distance matrix
 os.system("echo 'workdir/mafft_output.phy' > workdir/input")
@@ -116,12 +119,14 @@ elif string[-3:] == "faa":
 # Move the outfile generated with the above code to a new name. This file is input for the tree construction
 os.system("mv outfile workdir/distance.dat")
 os.system("phylip neighbor < workdir/input2")
-#os.system("mv outfile workdir/output_tree")
-#os.system("mv outtree workdir/phylo_tree")
+os.system("mv outfile workdir/output_tree")
+os.system("mv outtree workdir/phylo_tree")
 
 # Instead of phylip draw function, biopython could be used for tree visualization
-
-from Bio import Phylo
-tree = Phylo.read("workdir/outtree", "newick")
-Phylo.draw_ascii(tree)
-
+tree = Phylo.read("workdir/phylo_tree", "newick")
+#Phylo.draw_ascii(tree)
+tree.rooted = True
+#Phylo.draw(tree)i
+Phylo.draw_graphviz(tree, prog='dot')
+import pylab
+pylab.savefig('phylo_pic.png')
