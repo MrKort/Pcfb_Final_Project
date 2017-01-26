@@ -43,7 +43,7 @@ os.system('mafft input.fas > mafft(\_)output.fas')
 os.system('muscle -in input.fas -out muscle(\_)output.fas')
 
 We tested both MAFFT and MUSCLE, eventually we settled on using MAFFT with the following input argument:
-###########################
+"mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas
 
 Two freely available methods/packages were tried to construct the phylogenetic tree: Phylip and MEGA. MEGA claims to have command line functionality, yet when we want to run a function it opens a GUI. This is not what we want, because we want a fully automated pipeline. So we decided to continue with Phylip.
 

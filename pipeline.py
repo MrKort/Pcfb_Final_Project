@@ -5,11 +5,6 @@ import os
 import sys
 from Bio import Phylo
 
-# PhyloXML allows for improved plot drawing. For now this is left out.
-# Some systems need to import PhyloXML, this depends on the python and biopython version
-#from Bio.Phylo.PhyloXML import Phylogeny
-#tree = Phylogeny.from_tree(tree)
-
 # Please use the proper extentions for the DNA sequences (000.fnt) and the Amino Acid sequences (000.faa)
 # sys.argv takes the file name you want to search. 
 #Be sure to enclose it in apostorphes like: "file*.faa", if you wish to select all files of a certain type
