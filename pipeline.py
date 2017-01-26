@@ -83,7 +83,7 @@ while i < seq_num:
 i = 0
 seq_len = 0
 while i < seq_blocks:
-	seq_len += len(seqio[0][i].split("\n"))
+	seq_len += len(seqio[0][i].split("\n")) # Need to remove newline, or else the length will be 2 too long per block!
 	i += 1
 
 # Double while loop to write PHYLIP format to output file
@@ -120,6 +120,7 @@ elif string[-3:] == "faa":
 # Move the outfile generated with the above code to a new name. This file is input for the tree construction
 os.system("mv outfile workdir/distance.dat")
 os.system("phylip neighbor < workdir/input2")
+print "Visualising phylogenetic tree\nPlease stand by..."
 os.system("mv outfile workdir/output_tree")
 os.system("mv outtree workdir/phylo_tree")
 
@@ -130,4 +131,4 @@ tree.rooted = True
 #Phylo.draw(tree)
 Phylo.draw_graphviz(tree)
 import pylab
-pylab.savefig('phylo_pic.png')
+pylab.savefig('Phylo_tree.png')
