@@ -127,7 +127,7 @@ os.system("mv outtree workdir/phylo_tree")
 tree = Phylo.read("workdir/phylo_tree", "newick")
 #Phylo.draw_ascii(tree)
 tree.rooted = True
-#Phylo.draw(tree)i
-Phylo.draw_graphviz(tree, prog='dot')
+#Phylo.draw(tree)
+Phylo.draw_graphviz(tree)
 import pylab
 pylab.savefig('phylo_pic.png')

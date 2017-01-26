@@ -8,6 +8,8 @@ To run the script the following programs are needed:
 Python
 Biopython
 python-networkx
+pylab (or an equal)
+Pydot (or an equal)
 MAFFT
 Phylip
 
