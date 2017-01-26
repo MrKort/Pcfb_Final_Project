@@ -45,8 +45,7 @@ Two freely available methods/packages were tried to construct the phylogenetic t
 USING PHYLIP:
 First a distance matrix has to be made based on the multiple sequence alignment.
 For protein sequences the command phylip protdist has to be used, for dna sequences the command phylip dnadist needs to be used to generate the distance matrix.
-The distance matrix will be fed to phylip neighbor to generate the tree. In turn, the output file from this will be given to a visualizer to visualize the tree.
-
+The distance matrix will be fed to phylip neighbor to generate the tree. In turn, the output file from this will be given to a visualizer to visualize the tree, the phylip drawgram with default settings is good for now.
 
 Still working on pipeline. - Kort
 
@@ -54,3 +53,5 @@ Trying to refine msa by muscle and mafft - H
 Looking into how to make phylogenetic trees - Kort
 
 Good morning! Look into phylogeny methods, will work with manually adapted files for now. - H
+
+Today we have to finish the pipeline, for now I will start with the presentation. - H
