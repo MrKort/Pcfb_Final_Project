@@ -1,4 +1,6 @@
 #! /usr/bin/env python
+# Authors: K. Kort & H. Kruize
+
 import os
 import sys
 from Bio import Phylo
@@ -11,6 +13,11 @@ from Bio import Phylo
 # Please use the proper extentions for the DNA sequences (000.fnt) and the Amino Acid sequences (000.faa)
 # sys.argv takes the file name you want to search. 
 #Be sure to enclose it in apostorphes like: "file*.faa", if you wish to select all files of a certain type
+
+#########################################################################
+#	Accept input files, concatenate and reformat to input.fas	#
+#########################################################################
+
 string=sys.argv[1]
 os.system("mkdir workdir/")
 
@@ -41,8 +48,16 @@ os.system("sed -r -e 's/[A-Z]{2}\_//g' -i workdir/input.fas")
 os.system("sed -r -e 's/\.//g' -i workdir/input.fas")
 os.system("sed -r -e 's/\|/ /g' -i workdir/input.fas")
 
+#########################################
+#	MULTIPLE SEQUENCE ALIGNMENT	#
+#########################################
+
 # Run the Multiple Sequence Alignments
 os.system("mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas")
+
+#########################################################
+#	Reformatting MAFFT output to PHYLIP input	#
+#########################################################
 
 # Determine the amount of blocks of sequences
 os.system("grep '^$' workdir/mafft_output.fas | wc -l > workdir/blocks.txt")
@@ -50,7 +65,7 @@ Blocks = open("workdir/blocks.txt")
 blocks = Blocks.readlines()
 Blocks.close()
 seq_blocks = int(blocks[0])-1 # Minus 1 because of the extra line behind the header
-print seq_blocks
+os.system("rm workdir/blocks.txt") # Delete obsolete file
 
 # Open MSA output file, read lines, and store in list
 Mafft = open("workdir/mafft_output.fas")
@@ -71,6 +86,7 @@ os.system("sed -r -e 's/.+\s//g' -i workdir/mafft_output.fas")
 Mafft = open("workdir/mafft_output.fas")
 mafft2 = Mafft.readlines()
 Mafft.close()
+os.system("rm workdir/mafft_ouput.fas") # Delete obsolete file
 
 # While loop to select all lines per sequence for the outputfile list
 i = 0
@@ -99,6 +115,10 @@ while i < seq_blocks:
 	i += 1
 out.close()
 
+#########################
+#	PHYLIP		#
+#########################
+
 # To create the input files used with the phylip commands. This will use the default settings of each function.
 # The file input will be used to obtain the distance matrix
 os.system("echo 'workdir/mafft_output.phy' > workdir/input")
@@ -123,6 +143,10 @@ os.system("phylip neighbor < workdir/input2")
 print "Visualising phylogenetic tree\nPlease stand by..."
 os.system("mv outfile workdir/output_tree")
 os.system("mv outtree workdir/phylo_tree")
+
+#########################################
+#	Visualise Phylogenetic Tree	#
+#########################################
 
 # Instead of phylip draw function, biopython could be used for tree visualization
 tree = Phylo.read("workdir/phylo_tree", "newick")
