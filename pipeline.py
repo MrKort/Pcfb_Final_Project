@@ -93,12 +93,24 @@ while i < seq_blocks:
 out.close()
 
 # rm phylip files first! - clean up last run
+#os.system("rm workdir/infile workdir/outfile workdir/infile2 workdir/outtree workdir/")
+
+#To create the input files used with the phylip commands. This will use the default settings of each function.
+os.system("echo 'mafft_output.phy' > workdir/input")
+os.system("echo 'Y' >> workdir/input")
+os.system("echo '' >> workdir/input")
+
+os.system("echo 'distance.dat' > workdir/input2")
+os.system("echo 'Y' >> workdir/input2")
+os.system("echo '' >> workdir/input2")
+
 # if string[-3:] == "fnt"
 # 	phylip dnadist < input > screenout
 # elif string[-3:] == "faa"
 # 	phylip protdist < input > screenout
 # mv outfile > workdir/distance.dat
-# write "Y" in distance.dat header for screenout
-# phylip neighbor < workdir/distance.dat > screenout
+# phylip neighbor < infile2 > screenout
 
 # Instead of phylip draw function, biopython could be used for tree visualization
+
+
