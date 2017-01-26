@@ -1,0 +1,223 @@
+222
+      1 >accession:NP_243128.1|locus:BH2262|genome:Bacillus halodurans C-125
+      1 >accession:NP_347865.1|locus:CA_C1233|genome:Clostridium acetobutylicum ATCC 824
+      1 >accession:NP_389284.1|locus:BSU14010|genome:Bacillus subtilis subsp. subtilis str. 168
+      1 >accession:NP_637318.1|locus:XCC1953|genome:Xanthomonas campestris pv. campestris str. ATCC 33913
+      1 >accession:NP_642313.1|locus:XAC1987|genome:Xanthomonas axonopodis pv. citri str. 306
+      1 >accession:NP_717596.1|locus:SO_1989|genome:Shewanella oneidensis MR-1
+      1 >accession:NP_718684.1|locus:SO_3123|genome:Shewanella oneidensis MR-1
+      1 >accession:NP_718806.1|locus:SO_3252|genome:Shewanella oneidensis MR-1
+      1 >accession:NP_906363.1|locus:WS0095|genome:Wolinella succinogenes DSM 1740
+      1 >accession:NP_908183.1|locus:WS2084|genome:Wolinella succinogenes DSM 1740
+      1 >accession:NP_951936.1|locus:GSU0879|genome:Geobacter sulfurreducens PCA
+      1 >accession:YP_001140724.1|locus:ASA_0827|genome:Aeromonas salmonicida subsp. salmonicida A449
+      1 >accession:YP_001141327.1|locus:ASA_1487|genome:Aeromonas salmonicida subsp. salmonicida A449
+      1 >accession:YP_001143032.1|locus:ASA_3302|genome:Aeromonas salmonicida subsp. salmonicida A449
+      1 >accession:YP_001254278.1|locus:CBO1777|genome:Clostridium botulinum A str. ATCC 3502
+      1 >accession:YP_001384034.1|locus:CLB_1712|genome:Clostridium botulinum A str. ATCC 19397
+      1 >accession:YP_001387576.1|locus:CLC_1720|genome:Clostridium botulinum A str. Hall
+      1 >accession:YP_001391032.1|locus:CLI_1772|genome:Clostridium botulinum F str. Langeland
+      1 >accession:YP_001398667.1|locus:JJD26997_1686|genome:Campylobacter jejuni subsp. doylei 269.97
+      1 >accession:YP_001420974.1|locus:RBAM_013800|genome:Bacillus amyloliquefaciens FZB42
+      1 >accession:YP_001481837.1|locus:C8J_0261|genome:Campylobacter jejuni subsp. jejuni 81116
+      1 >accession:YP_001486539.1|locus:BPUM_1296|genome:Bacillus pumilus SAFR-032
+      1 >accession:YP_001489551.1|locus:Abu_0617|genome:Arcobacter butzleri RM4018
+      1 >accession:YP_001697040.1|locus:Bsph_1302|genome:Lysinibacillus sphaericus C3-41
+      1 >accession:YP_001781327.1|locus:CLD_2861|genome:Clostridium botulinum B1 str. Okra
+      1 >accession:YP_001787099.1|locus:CLK_1159|genome:Clostridium botulinum A3 str. Loch Maree
+      1 >accession:YP_002137534.1|locus:Gbem_0712|genome:Geobacter bemidjiensis Bem
+      1 >accession:YP_002263697.1|locus:VSAL_I2340|genome:Aliivibrio salmonicida LFI1238
+      1 >accession:YP_002264582.1|locus:VSAL_II0231|genome:Aliivibrio salmonicida LFI1238
+      1 >accession:YP_002266623.1|locus:HPG27_1004|genome:Helicobacter pylori G27
+      1 >accession:YP_002316273.1|locus:Aflv_1927|genome:Anoxybacillus flavithermus WK1
+      1 >accession:YP_002343726.1|locus:Cj0285c|genome:Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819
+      1 >accession:YP_002529440.1|locus:BCQ_1720|genome:Bacillus cereus Q1
+      1 >accession:YP_002575937.1|locus:Cla_1370|genome:Campylobacter lari RM2100
+      1 >accession:YP_002804112.1|locus:CLM_1935|genome:Clostridium botulinum A2 str. Kyoto
+      1 >accession:YP_002862740.1|locus:CLJ_B1957|genome:Clostridium botulinum Ba4 str. 657
+      1 >accession:YP_002951435.1|locus:DMR_00580|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_002952374.1|locus:DMR_09970|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_002952427.1|locus:DMR_10500|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_002954041.1|locus:DMR_26640|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_002954176.1|locus:DMR_27990|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_002954366.1|locus:DMR_29890|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_002955793.1|locus:DMR_44160|genome:Desulfovibrio magneticus RS-1
+      1 >accession:YP_003428088.1|locus:BpOF4_15735|genome:Bacillus pseudofirmus OF4
+      1 >accession:YP_003463839.1|locus:lse_0600|genome:Listeria seeligeri serovar 1/2b str. SLCC3954
+      1 >accession:YP_003519211.1|locus:PANA_0916|genome:Pantoea ananatis LMG 20103
+      1 >accession:YP_003530873.1|locus:EAMY_1515|genome:Erwinia amylovora CFBP1430
+      1 >accession:YP_003561783.1|locus:BMQ_1316|genome:Bacillus megaterium QM B1551
+      1 >accession:YP_003596507.1|locus:BMD_1296|genome:Bacillus megaterium DSM 319
+      1 >accession:YP_003791505.1|locus:BACI_c17060|genome:Bacillus cereus biovar anthracis str. CI
+      1 >accession:YP_003797989.1|locus:NIDE2351|genome:Candidatus Nitrospira defluvii
+      1 >accession:YP_003865798.1|locus:BSUW23_07205|genome:Bacillus subtilis subsp. spizizenii str. W23
+      1 >accession:YP_003920074.1|locus:BAMF_1478|genome:Bacillus amyloliquefaciens DSM 7
+      1 >accession:YP_003929954.1|locus:Pvag_0292|genome:Pantoea vagans C9-1
+      1 >accession:YP_004069361.1|locus:PSM_A2296|genome:Pseudoalteromonas sp. SM9913
+      1 >accession:YP_004568390.1|locus:BCO26_0945|genome:Bacillus coagulans 2-6
+      1 >accession:YP_004635899.1|locus:SMB_G1254|genome:Clostridium acetobutylicum DSM 1731
+      1 >accession:YP_004682400.1|locus:CNE_2c22190|genome:Cupriavidus necator N-1
+      1 >accession:YP_004713699.1|locus:PSTAB_1329|genome:Pseudomonas stutzeri ATCC 17588 = LMG 11199
+      1 >accession:YP_004714759.1|locus:PSTAB_2389|genome:Pseudomonas stutzeri ATCC 17588 = LMG 11199
+      1 >accession:YP_004870573.1|locus:GNIT_0426|genome:Glaciecola nitratireducens FR1064
+      1 >accession:YP_004871068.1|locus:GNIT_0937|genome:Glaciecola nitratireducens FR1064
+      1 >accession:YP_004872511.1|locus:GNIT_2421|genome:Glaciecola nitratireducens FR1064
+      1 >accession:YP_004883646.1|locus:OBV_39420|genome:Oscillibacter valericigenes Sjm18-20
+      1 >accession:YP_004952996.1|locus:EcWSU1_03147|genome:Enterobacter cloacae EcWSU1
+      1 >accession:YP_005130081.1|locus:BACAU_1352|genome:Bacillus amyloliquefaciens subsp. plantarum CAU B946
+      1 >accession:YP_005196822.1|locus:PANA5342_3392|genome:Pantoea ananatis LMG 5342
+      1 >accession:YP_005207157.1|locus:PSF113_1738|genome:Pseudomonas fluorescens F113
+      1 >accession:YP_005420652.1|locus:BANAU_1315|genome:Bacillus amyloliquefaciens subsp. plantarum YAU B9601-Y2
+      1 >accession:YP_005431108.1|locus:MARHY3230|genome:Marinobacter hydrocarbonoclasticus ATCC 49840
+      1 >accession:YP_005434046.1|locus:SELR_23150|genome:Selenomonas ruminantium subsp. lactilytica TAM6421
+      1 >accession:YP_005469396.1|locus:LFE_1584|genome:Leptospirillum ferrooxidans C2-3
+      1 >accession:YP_005496105.1|locus:BMWSH_3915|genome:Bacillus megaterium WSH-002
+      1 >accession:YP_005541687.1|locus:BAMTA208_10135|genome:Bacillus amyloliquefaciens TA208
+      1 >accession:YP_005545275.1|locus:LL3_01506|genome:Bacillus amyloliquefaciens LL3
+      1 >accession:YP_005550048.1|locus:BAXH7_02068|genome:Bacillus amyloliquefaciens XH7
+      1 >accession:YP_005560715.1|locus:BSNT_02347|genome:Bacillus subtilis subsp. natto BEST195
+      1 >accession:YP_005655628.1|locus:CJSA_0261|genome:Campylobacter jejuni subsp. jejuni IA3902
+      1 >accession:YP_005657245.1|locus:CJM1_0268|genome:Campylobacter jejuni subsp. jejuni M1
+      1 >accession:YP_005658874.1|locus:CJS3_0274|genome:Campylobacter jejuni subsp. jejuni S3
+      1 >accession:YP_005670379.1|locus:CEA_G1246|genome:Clostridium acetobutylicum EA 2018
+      1 >accession:YP_005674666.1|locus:CBF_1754|genome:Clostridium botulinum F str. 230613
+      1 >accession:YP_005762475.1|locus:HPKB_0990|genome:Helicobacter pylori 52
+      1 >accession:YP_005769381.1|locus:HMPREF4655_20223|genome:Helicobacter pylori 35A
+      1 >accession:YP_005773763.1|locus:HPF30_0017|genome:Helicobacter pylori F30
+      1 >accession:YP_005775242.1|locus:HPF32_0017|genome:Helicobacter pylori F32
+      1 >accession:YP_005776732.1|locus:HPF57_0017|genome:Helicobacter pylori F57
+      1 >accession:YP_005778252.1|locus:HPF16_0017|genome:Helicobacter pylori F16
+      1 >accession:YP_005784587.1|locus:HMPREF0462_0020|genome:Helicobacter pylori 83
+      1 >accession:YP_005790832.1|locus:hp2018_0023|genome:Helicobacter pylori 2018
+      1 >accession:YP_005792428.1|locus:KHP_0017|genome:Helicobacter pylori 51
+      1 >accession:YP_005793097.1|locus:KHP_0704|genome:Helicobacter pylori 51
+      1 >accession:YP_005793348.1|locus:KHP_0963|genome:Helicobacter pylori 51
+      1 >accession:YP_005803018.1|locus:EPYR_02267|genome:Erwinia pyrifoliae DSM 12163
+      1 >accession:YP_005925696.1|locus:lmo4a_0705|genome:Listeria monocytogenes L99
+      1 >accession:YP_005928738.1|locus:PPUBIRD1_0848|genome:Pseudomonas putida BIRD-1
+      1 >accession:YP_005933124.1|locus:PAJ_0248|genome:Pantoea ananatis AJ13355
+      1 >accession:YP_005946787.1|locus:LMM7_0724|genome:Listeria monocytogenes M7
+      1 >accession:YP_006180402.1|locus:HBHAL_2780|genome:Halobacillus halophilus DSM 2266
+      1 >accession:YP_006184807.1|locus:SMD_2089|genome:Stenotrophomonas maltophilia D457
+      1 >accession:YP_006328223.1|locus:MUS_1485|genome:Bacillus amyloliquefaciens Y2
+      1 >accession:YP_006343420.1|locus:ES15_2336|genome:Cronobacter sakazakii ES15
+      1 >accession:YP_006463746.1|locus:SSIL_3177|genome:Solibacillus silvestris StLB046
+      1 >accession:YP_006531247.1|locus:T1E_0598|genome:Pseudomonas putida DOT-T1E
+      1 >accession:YP_006558079.1|locus:MRBBS_1729|genome:Marinobacter sp. BSs20148
+      1 >accession:YP_006559797.1|locus:MRBBS_3448|genome:Marinobacter sp. BSs20148
+      1 >accession:YP_006629586.1|locus:B657_14010|genome:Bacillus subtilis QB928
+      1 >accession:YP_006632475.1|locus:BN148_0285c|genome:Campylobacter jejuni subsp. jejuni NCTC 11168-BN148
+      1 >accession:YP_006672526.1|locus:LMOATCC19117_0725|genome:Listeria monocytogenes ATCC 19117
+      1 >accession:YP_006675390.1|locus:LMOSLCC2378_0721|genome:Listeria monocytogenes SLCC2378
+      1 >accession:YP_006678244.1|locus:LMOSLCC2540_0701|genome:Listeria monocytogenes SLCC2540
+      1 >accession:YP_006681152.1|locus:LMOSLCC2755_0702|genome:Listeria monocytogenes SLCC2755
+      1 >accession:YP_006684028.1|locus:LMOSLCC2372_0701|genome:Listeria monocytogenes SLCC2372
+      1 >accession:YP_006686962.1|locus:LMOSLCC2479_0699|genome:Listeria monocytogenes SLCC2479
+      1 >accession:YP_006689866.1|locus:LMOSLCC2376_0668|genome:Listeria monocytogenes SLCC2376
+      1 >accession:YP_006692698.1|locus:LMOSLCC2482_0745|genome:Listeria monocytogenes serotype 7 str. SLCC2482
+      1 >accession:YP_006695518.1|locus:LMOSLCC5850_0691|genome:Listeria monocytogenes SLCC5850
+      1 >accession:YP_006698362.1|locus:LMOSLCC7179_0669|genome:Listeria monocytogenes SLCC7179
+      1 >accession:YP_006712996.1|locus:BLi01614|genome:Bacillus licheniformis DSM 13 = ATCC 14580
+      1 >accession:YP_006717795.1|locus:Pcar_2045|genome:Pelobacter carbinolicus DSM 2380
+      1 >accession:YP_006721695.1|locus:Gmet_2739|genome:Geobacter metallireducens GS-15
+      1 >accession:YP_006753830.1|locus:LMOL312_0701|genome:Listeria monocytogenes L312
+      1 >accession:YP_006788639.1|locus:Curi_c17850|genome:Clostridium acidurici 9a
+      1 >accession:YP_006889894.1|locus:KN400_0859|genome:Geobacter sulfurreducens KN400
+      1 >accession:YP_006909661.1|locus:DHBDCA_p647|genome:Dehalobacter sp. DCA
+      1 >accession:YP_006926329.1|locus:BTB_c16980|genome:Bacillus thuringiensis Bt407
+      1 >accession:YP_007014300.1|locus:BN389_07350|genome:Listeria monocytogenes serotype 4b str. LL195
+      1 >accession:YP_007426591.1|locus:C663_1445|genome:Bacillus subtilis XF-1
+      1 >accession:YP_007457714.1|locus:Cspa_c47070|genome:Clostridium saccharoperbutylacetonicum N1-4(HMT)
+      1 >accession:YP_007497028.1|locus:BAM5036_1317|genome:Bacillus amyloliquefaciens subsp. plantarum UCMB5036
+      1 >accession:YP_007533354.1|locus:BSU6051_14010|genome:Bacillus subtilis subsp. subtilis 6051-HGW
+      1 >accession:YP_007536131.1|locus:HPOK113_0017|genome:Helicobacter pylori OK113
+      1 >accession:YP_007537651.1|locus:HPOK310_0017|genome:Helicobacter pylori OK310
+      1 >accession:YP_007544687.1|locus:C427_3230|genome:Glaciecola psychrophila 170
+      1 >accession:YP_007545603.1|locus:C427_4150|genome:Glaciecola psychrophila 170
+      1 >accession:YP_007545604.1|locus:C427_4151|genome:Glaciecola psychrophila 170
+      1 >accession:YP_007552533.1|locus:AZKH_3268|genome:Azoarcus sp. KH32C
+      1 >accession:YP_007552534.1|locus:AZKH_3269|genome:Azoarcus sp. KH32C
+      1 >accession:YP_013329.1|locus:LMOf2365_0725|genome:Listeria monocytogenes serotype 4b str. F2365
+      1 >accession:YP_035876.1|locus:BT9727_1544|genome:Bacillus thuringiensis serovar konkukian str. 97-27
+      1 >accession:YP_078793.1|locus:BL03579|genome:Bacillus licheniformis DSM 13 = ATCC 14580
+      1 >accession:YP_083127.1|locus:BCZK1533|genome:Bacillus cereus E33L
+      1 >accession:YP_175638.1|locus:ABC2142|genome:Bacillus clausii KSM-K16
+      1 >accession:YP_178353.1|locus:CJE0333|genome:Campylobacter jejuni RM1221
+      1 >accession:YP_201207.1|locus:XOO2568|genome:Xanthomonas oryzae pv. oryzae KACC 10331
+      1 >accession:YP_217301.1|locus:SC2314|genome:Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67
+      1 >accession:YP_268216.1|locus:CPS_1474|genome:Colwellia psychrerythraea 34H
+      1 >accession:YP_339291.1|locus:PSHAa0766|genome:Pseudoalteromonas haloplanktis TAC125
+      1 >accession:YP_595104.1|locus:LI0729|genome:Lawsonia intracellularis PHE/MN1-00
+      1 >accession:YP_595492.1|locus:LI1117|genome:Lawsonia intracellularis PHE/MN1-00
+      1 >accession:YP_664281.1|locus:Hac_0451|genome:Helicobacter acinonychis str. Sheeba
+      1 >accession:YP_664615.1|locus:Hac_0832|genome:Helicobacter acinonychis str. Sheeba
+      1 >accession:YP_665390.1|locus:Hac_1689|genome:Helicobacter acinonychis str. Sheeba
+      1 >accession:YP_841752.1|locus:H16_B2240|genome:Ralstonia eutropha H16
+      1 >accession:YP_848859.1|locus:lwe0658|genome:Listeria welshimeri serovar 6b str. SLCC5334
+      1 >accession:YP_999999.1|locus:CJJ81176_0311|genome:Campylobacter jejuni subsp. jejuni 81-176
+      1 >accession:ZP_00229447.1|locus:LMOh7858_0754|genome:Listeria monocytogenes serotype 4b str. H7858
+      1 >accession:ZP_00232866.1|locus:LMOf6854_0736|genome:Listeria monocytogenes serotype 1/2a str. F6854
+      1 >accession:ZP_01067842.1|locus:CJJCF936_0303|genome:Campylobacter jejuni subsp. jejuni CF93-6
+      1 >accession:ZP_01069437.1|locus:CJJ26094_0300|genome:Campylobacter jejuni subsp. jejuni 260.94
+      1 >accession:ZP_01100595.1|locus:CJJ8425_0309|genome:Campylobacter jejuni subsp. jejuni 84-25
+      1 >accession:ZP_02615014.1|locus:CBN_1827|genome:Clostridium botulinum NCTC 2916
+      1 >accession:ZP_02619722.1|locus:CBB_2015|genome:Clostridium botulinum Bf
+      1 >accession:ZP_03222829.1|locus:Cj8421_0273|genome:Campylobacter jejuni subsp. jejuni CG8421
+      1 >accession:ZP_04527682.1|locus:CLP_1742|genome:Clostridium butyricum E4 str. BoNT E BL5262
+      1 >accession:ZP_04657930.1|locus:HMPREF0908_0070|genome:Selenomonas flueggei ATCC 43531
+      1 >accession:ZP_04823958.1|locus:CLO_2225|genome:Clostridium botulinum E1 str. 'BoNT E Beluga'
+      1 >accession:ZP_05136219.1|locus:SSKA14_3299|genome:Stenotrophomonas sp. SKA14
+      1 >accession:ZP_05714958.1|locus:VMD_00040|genome:Vibrio mimicus VM573
+      1 >accession:ZP_05719486.1|locus:VMB_07870|genome:Vibrio mimicus VM603
+      1 >accession:ZP_06175956.1|locus:VME_23400|genome:Vibrio harveyi 1DA3
+      1 >accession:ZP_06179548.1|locus:VMC_09780|genome:Vibrio alginolyticus 40B
+      1 >accession:ZP_06604412.1|locus:HMPREF7545_1950|genome:Selenomonas noxia ATCC 43541
+      1 >accession:ZP_07054151.1|locus:HMPREF0556_11717|genome:Listeria grayi DSM 20601
+      1 >accession:ZP_07396661.1|locus:HMPREF9166_0415|genome:Selenomonas sp. oral taxon 149 str. 67H29BP
+      1 >accession:ZP_07401989.1|locus:HMPREF9399_1347|genome:Campylobacter coli JV20
+      1 >accession:ZP_07455235.1|locus:HMPREF0379_1928|genome:Eubacterium yurii subsp. margaretiae ATCC 43715
+      1 >accession:ZP_07891298.1|locus:HMPREF9401_0709|genome:Arcobacter butzleri JV22
+      1 >accession:ZP_07893404.1|locus:HMPREF9400_0434|genome:Campylobacter upsaliensis JV21
+      1 >accession:ZP_08053309.1|locus:HSUHS1_0538|genome:Helicobacter suis HS1
+      1 >accession:ZP_08054588.1|locus:HSUHS5_0706|genome:Helicobacter suis HS5
+      1 >accession:ZP_08409049.1|locus:PH505_am00950|genome:Pseudoalteromonas haloplanktis ANT/505
+      1 >accession:ZP_08498921.1|locus:HMPREF9086_3184|genome:Enterobacter hormaechei ATCC 49162
+      1 >accession:ZP_08501817.1|locus:HMPREF9081_1405|genome:Centipeda periodontii DSM 2778
+      1 >accession:ZP_08539188.1|locus:HMPREF9124_0701|genome:Oribacterium sp. oral taxon 108 str. F0425
+      1 >accession:ZP_08678533.1|locus:HMPREF9372_1483|genome:Sporosarcina newyorkensis 2681
+      1 >accession:ZP_08815117.1|locus:TevJSym_ab00060|genome:sulfur-oxidizing symbionts endosymbiont of Tevnia jerichonana (vent Tica)
+      1 >accession:ZP_08830635.1|locus:Rifp1Sym_db00100|genome:sulfur-oxidizing symbionts endosymbiont of Riftia pachyptila (vent Ph05)
+      1 >accession:ZP_09223832.1|locus:P20652_1945|genome:Pseudoalteromonas sp. BSi20652
+      1 >accession:ZP_09226026.1|locus:P20311_0043|genome:Pseudoalteromonas sp. BSi20311
+      1 >accession:ZP_09228340.1|locus:P20311_2387|genome:Pseudoalteromonas sp. BSi20311
+      1 >accession:ZP_09230811.1|locus:P20429_1174|genome:Pseudoalteromonas sp. BSi20429
+      1 >accession:ZP_09234515.1|locus:P20439_0831|genome:Pseudoalteromonas sp. BSi20439
+      1 >accession:ZP_09237189.1|locus:P20439_3558|genome:Pseudoalteromonas sp. BSi20439
+      1 >accession:ZP_09240912.1|locus:P20480_3653|genome:Pseudoalteromonas sp. BSi20480
+      1 >accession:ZP_09242563.1|locus:P20495_1306|genome:Pseudoalteromonas sp. BSi20495
+      1 >accession:ZP_09243223.1|locus:P20495_1973|genome:Pseudoalteromonas sp. BSi20495
+      1 >accession:ZP_09760386.1|locus:SCA50_2469|genome:Salmonella enterica subsp. enterica serovar Choleraesuis str. SCSA50
+      1 >accession:ZP_09879208.1|locus:XMIN_652|genome:Xanthomonas citri pv. mangiferaeindicae LMG 941
+      1 >accession:ZP_09988382.1|locus:RNAN_1445|genome:Rheinheimera nanhaiensis E407-8
+      1 >accession:ZP_10262980.1|locus:XAPC_3684|genome:Xanthomonas axonopodis pv. punicae str. LMG 859
+      1 >accession:ZP_10761021.1|locus:BN5_01483|genome:Pseudomonas pseudoalcaligenes CECT 5344
+      1 >accession:ZP_10761361.1|locus:BN5_01830|genome:Pseudomonas pseudoalcaligenes CECT 5344
+      1 >accession:ZP_10762157.1|locus:BN5_02657|genome:Pseudomonas pseudoalcaligenes CECT 5344
+      1 >accession:ZP_11072557.1|locus:B857_00343|genome:Bacillus isronensis B3W22
+      1 >accession:ZP_11323664.1|locus:GPSY_1930|genome:Glaciecola psychrophila 170
+      1 >accession:ZP_11325331.1|locus:GPSY_3609|genome:Glaciecola psychrophila 170
+      1 >accession:ZP_11325547.1|locus:GPSY_3825|genome:Glaciecola psychrophila 170
+      1 >accession:ZP_11330280.1|locus:GPLA_3529|genome:Glaciecola polaris LMG 21857
+      1 >accession:ZP_11331817.1|locus:GPAL_0310|genome:Glaciecola pallidula DSM 14239 = ACAM 615
+      1 >accession:ZP_11333395.1|locus:GPAL_1908|genome:Glaciecola pallidula DSM 14239 = ACAM 615
+      1 >accession:ZP_11338160.1|locus:GMES_2634|genome:Glaciecola mesophila KMM 241
+      1 >accession:ZP_11343995.1|locus:GARC_3909|genome:Glaciecola arctica BSs20135
+      1 >accession:ZP_11345103.1|locus:GARC_5035|genome:Glaciecola arctica BSs20135
+      1 >accession:ZP_11345417.1|locus:GARC_5349|genome:Glaciecola arctica BSs20135
+      1 >accession:ZP_11347967.1|locus:GLIP_2547|genome:Glaciecola lipolytica E3
+      1 >accession:ZP_11348731.1|locus:GLIP_3322|genome:Glaciecola lipolytica E3
+      1 >accession:ZP_11353166.1|locus:GCHA_3421|genome:Glaciecola chathamensis S18K6
+      1 >accession:ZP_11357117.1|locus:GAGA_2672|genome:Glaciecola agarilytica NO2
+      1 >accession:ZP_16967672.1|locus:HMPREF9094_2009|genome:Fusobacterium nucleatum subsp. animalis ATCC 51191
+      1 >accession:ZP_20508523.1|locus:BN444_00535|genome:Xanthomonas translucens pv. translucens DSM 18974
+      1 >accession:ZP_21464641.1|locus:Jab_2c13940|genome:Janthinobacterium sp. HH01
