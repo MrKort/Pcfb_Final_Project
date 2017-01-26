@@ -70,3 +70,4 @@ Phylip neighbor uses default parameters.
 For the visualisation of the phylogenetic tree the Phylo package from Biopython was used instead of the drawgram function in phylip. This allows for user optimization of the representation of the phylogenetic tree. For now we used default parameters and a .png is generated.
 
 The pipeline was tested with a more elaborated large test set of the protein CheV, 222 amino acids/ nucleotides sequences.
+The pipeline succeeded correctly for CheV protein sequences, but failed for CheV dna sequences and the reason is still unknown.
