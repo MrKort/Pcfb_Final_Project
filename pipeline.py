@@ -86,7 +86,7 @@ os.system("sed -r -e 's/.+\s//g' -i workdir/mafft_output.fas")
 Mafft = open("workdir/mafft_output.fas")
 mafft2 = Mafft.readlines()
 Mafft.close()
-os.system("rm workdir/mafft_ouput.fas") # Delete obsolete file
+os.system("rm workdir/mafft_output.fas") # Delete obsolete file
 
 # While loop to select all lines per sequence for the outputfile list
 i = 0
