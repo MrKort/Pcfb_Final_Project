@@ -50,6 +50,7 @@ Blocks = open("workdir/blocks.txt")
 blocks = Blocks.readlines()
 Blocks.close()
 seq_blocks = int(blocks[0])-1 # Minus 1 because of the extra line behind the header
+print seq_blocks
 
 # Open MSA output file, read lines, and store in list
 Mafft = open("workdir/mafft_output.fas")
@@ -82,21 +83,21 @@ while i < seq_num:
 i = 0
 seq_len = 0
 while i < seq_blocks:
-	seq_len += len(seqio[0][i])
+	seq_len += len(seqio[0][i].split("\n"))
 	i += 1
 
 # Double while loop to write PHYLIP format to output file
-#out=open("workdir/mafft_output.phy", "w")
-#out.write(str(seq_num)+"\t"+str(seq_len)+"\n") # Write PHYLIP header
-#i = 0
-#while i < seq_blocks:
-#	j = 0
-#	while j < seq_num:
-#		out.write(dictio[j][i]) # Write blocks of sequences to file
-#		j += 1
-#	out.write('\n') # Give a newline in between blocks
-#	i += 1
-#out.close()
+out=open("workdir/mafft_output.phy", "w")
+out.write(str(seq_num)+"\t"+str(seq_len)+"\n") # Write PHYLIP header
+i = 0
+while i < seq_blocks:
+	j = 0
+	while j < seq_num:
+		out.write(dictio[j][i]) # Write blocks of sequences to file
+		j += 1
+	out.write('\n') # Give a newline in between blocks
+	i += 1
+out.close()
 
 # To create the input files used with the phylip commands. This will use the default settings of each function.
 # The file input will be used to obtain the distance matrix
