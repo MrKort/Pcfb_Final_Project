@@ -49,6 +49,7 @@ os.system("sed -r -e 's/\|/ /g' -i workdir/input.fas")
 
 # Run the Multiple Sequence Alignments
 os.system("mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --clustalout workdir/input.fas > workdir/mafft_output.fas")
+#mafft --localpair --maxiterate 1000 --lop 15 --lexp 5 --phylipout workdir/input.fas > workdir/mafft_output.phy
 
 #########################################################
 #	Reformatting MAFFT output to PHYLIP input	#
